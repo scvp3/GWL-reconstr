@@ -13,7 +13,7 @@ log files: the settings used in the pcReg model (sitename_log)
 
 the output files: the pcReg output showing the selected tree ring records (predictors) & modeling statistics
 
-the final reddened reconstruction: the pcReg output file showing the reconstructed groundwater levels for each year (sitename_reconstr)
+the final reddened reconstructed groundwater levels: the pcReg output file showing the reconstructed groundwater levels for each year (sitename_reconstr)
 
 Figure scripts folder:
 
