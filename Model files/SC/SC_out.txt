@@ -1,0 +1,605 @@
+
+         Old log file opened:               pcregOSX_log.txt                        
+         Intermediate output files will not be saved
+
+         Title: colorado sf small cfp MJJA                                       
+
+         The predictor data file:           colorado_smaller_cfp.txt                
+
+         No tree-ring coordinates read in:            0
+         Tree-ring coordinates format:                None
+
+           1  ar074.    1700  2003   304 Years  GEE    1 Gee Creek                                           PIEC      
+           2  ar078.    1946  2007    62 Years  Green  1 Greenbrier                                          PIEC      
+           3  ar079.    1943  2008    66 Years  Pilot  1 Pilot Knob                                          PIEC      
+           4  ar082.    1923  2007    85 Years  Knop   1 Knoppers Ford                                       PIEC      
+           5  ks011.    1830  2006   177 Years  LSB    1 Lazy S - B Ranch                                    QUST      
+           6  ks012.    1820  2006   187 Years  TGP    1 Tallgrass Prairie Preserve                          QUMA      
+           7  ks013.    1630  2008   379 Years  CBK    1 Cedar Bluff Reservoir                               JUVI      
+           8  mn029.    1877  2010   134 Years  W-RJH  1 Bois de Sioux Golf Course                           QUMA      
+           9  mn030.    1868  2010   143 Years  W-WEL  1 Welles Park                                         QUMA      
+          10  mo045.    1700  2002   303 Years  MOFEP  1 Missouri Ozark Forest Ecosystem Project Sites       PIEC      
+          11  mo046.    1740  2004   265 Years  LOH    1 Brickyard Conservation Area, Loess Hills            QUMA      
+          12  mo047.    1850  2004   155 Years  LM     1 Grand River Basin                                   QUSP      
+          13  mo048.    1950  2008    59 Years  BFC    1 Bon Femme Creek                                     QUMA      
+          14  mo049.    1980  2008    29 Years  GAN    1 Gans Creek                                          QUMA      
+          15  mo051.    1900  2002   103 Years  SEMO   1 Southeastern Missouri                               PIEC      
+          16  mo052.    1897  2002   106 Years  SEMO   1 Southeastern Missouri                               QUCO      
+          17  mo053.    1839  2032   194 Years  SEMO   1 Southeastern Missouri                               QUVE      
+          18  mo054.    1950  2002    53 Years  SEMO   1 Southeastern Missouri                               QUFA      
+          19  mo057.    1950  2002    53 Years  MOFEP1 1 MOFEP Site 1                                        QUCO      
+          20  mo058.    1867  2002   136 Years  MOFEP1 1 MOFEP Site 1                                        QUVE      
+          21  mo060.    1970  2002    33 Years  MOFEP2 1 MOFEP Site 2                                        QUVE      
+          22  mo061.    1907  2002    96 Years  MOFEP3 1 MOFEP Site 3                                        QUCO      
+          23  mo062.    1890  2002   113 Years  MOFEP3 1 MOFEP Site 3                                        QUVE      
+          24  mo063.    1970  2002    33 Years  MOFEP4 1 MOFEP Site 4                                        QUCO      
+          25  mo073.    1891  2002   112 Years  MOFEP9 1 MOFEP Site 9                                        QUCO      
+          26  mo074.    1869  2002   134 Years  MOFEP9 1 MOFEP Site 9                                        QUVE      
+          27  mo075.    1880  2002   123 Years  MOFEP  1 MOFEP                                               PIEC      
+          28  mo077.    1800  2008   209 Years  GUYUSA 1 Missouri Living/Subfossil                           QUSP      
+          29  mo079.    1894  2015   122 Years  MOACS  1 Missouri Ozark Site Flux Tower                      ACSH      
+          30  mo080.    1907  2015   109 Years  MQUAL  1 Missouri Ozark Site Flux Tower                      QUAL      
+          31  nd009.    1854  2010   157 Years  G-LCN  1 Lincoln Park                                        QUMA      
+          32  nd010.    1878  2010   133 Years  F-OGR  1 Oak Grove Park                                      QUMA      
+          33  nd011.    1886  2010   125 Years  F-RRT  1 Red River Trail                                     QUMA      
+          34  nd012.    1870  2010   141 Years  F-LIN  1 Lindenwood Park                                     QUMA      
+          35  ne009.    1634  2008   375 Years  MCP    1 Fort McPherson                                      JUVI      
+          36  ok034.    1720  2006   287 Years  TLY    1 Nickel Preserve                                     PIEC      
+          37  ok035.    1800  2008   209 Years  OGMA   1 Okmulgee Game Management Area update                QUST      
+          38  ok036.    1969  2009    41 Years  Tom    1 Camp Tom Hale                                       PIEC      
+          39  ok037.    1943  2009    67 Years  Pigen  1 Pigeon Creek                                        PIEC      
+          40  ok038.    1860  2008   149 Years  Short  1 Shortleaf Canyon                                    PIEC      
+          41  ok040.    1950  2013    64 Years  LDF1   1 Cussetah Bottoms                                    QUSH      
+          42  ok041.    1939  2013    75 Years  LDF2   1 Missouri Oklahoma and Gulf Railroad                 QUPA      
+          43  ok042.    1950  2013    64 Years  LDF4   1 Water Plant                                         QUPA      
+          44  ok044.    1870  2015   146 Years  SAL    1 South Arcadia Lake                                  QUST      
+          45  ok045.    1450  2005   556 Years  IRV    1 Keystone                                            JUVI      
+          46  ok046.    1500  2007   508 Years  PAT    1 Pattons Bluff                                       JUVI      
+          47  sd020.    1840  2006   167 Years  MR     1 Moreau River                                        PPDE      
+          48  wi006.    1807  2000   194 Years  PlP    1 Pleasant Prairie                                    QUAL      
+          49  co563.    1698  2001   304 Years  DMT    1 DARK MOUNTAIN                                       PICO      
+          50  co579.    1400  2002   603 Years  PUM    1 Pumphouse                                           PIED      
+          51  co583.    1450  2002   553 Years  trg41  1 Trail Gulch                                         PIED      
+          52  co588.    1760  2004   245 Years  vpb    1 Platt Bradbury                                      PIPO      
+          53  co590.    1392  2002   611 Years  BEN    1 Bennett Creek                                       PIPO      
+          54  co591.    1490  2001   512 Years  BRR    1 Boulder Ridge Road                                  PIPO      
+          55  co592.    1550  2000   451 Years  BTU    1 Big Thompson Update                                 PSME      
+          56  co593.    1366  2002   637 Years  CAT    1 Cathedral Creek                                     PSME      
+          57  co596.    1545  2003   459 Years  CRP    1 Crags Hotel                                         PIPO      
+          58  co597.    1372  2002   631 Years  DIL    1 Dillon                                              PSME      
+          59  co598.    1547  2000   454 Years  DMU    1 Deer Mountain Update                                PIPO      
+          60  co603.    1541  2003   463 Years  ELU    1 Eldorado Canyon Update                              PSME      
+          61  co604.    1378  2000   623 Years  GMR    1 Green Mountain Reservoir                            PSME      
+          62  co607.    1600  2000   401 Years  JAM    1 Jamestown                                           PIPO      
+          63  co608.    1600  2003   404 Years  JFU    1 Jefferson County Update                             PIPO      
+          64  co610.    1400  2002   603 Years  MCP    1 McPhee (includes Dolores)                           PIED      
+          65  co611.    1650  2002   353 Years  MEY    1 Meyer Ranch                                         PIPO      
+          66  co613.    1486  2001   516 Years  NPU    1 North Park Update                                   PSME      
+          67  co614.    1508  2002   495 Years  OWU    1 Owl Canyon Update                                   PIED      
+          68  co617.    1169  2002   834 Years  PRD    1 Princeton Douglas-fir                               PSME      
+          69  co619.    1290  2000   711 Years  PTP    1 Peak to Peak                                        PSME      
+          70  co620.    1650  2000   351 Years  RCK    1 Red Creek                                           PSME      
+          71  co622.    1560  2002   443 Years  RUS    1 Rustic                                              PIPO      
+          72  co623.    1600  2000   401 Years  SAP    1 Sapinero Mesa                                       PIPO      
+          73  co624.    1275  2002   728 Years  SAR    1 Sargents                                            PSME      
+          74  co625.    1566  2002   437 Years  SFK    1 South Fork                                          PIPO      
+          75  co635.    1880  2003   124 Years  CO4    1 Cameron Pass                                        ABLA      
+          76  co636.    1680  2002   323 Years  arc    1 Natural Arch                                        PIED      
+          77  co639.    1620  2003   384 Years  hap    1 Happy Meadows                                       PIPO      
+          78  co641.    1566  2003   438 Years  vbu    1 Van Bibber Update                                   PIPO      
+          79  co646.    1200  2004   805 Years  GMR20  1 Green Mountain Reservoir update                     PSME      
+          80  co648.    1310  2002   693 Years  PUM86  1 Pumphouse update                                    PIED      
+          81  co649.     996  2002  1007 Years  TRG55  1 Trail Gulch update                                  PIED      
+          82  co653.    1566  2008   443 Years  SFK    1 South Fork Update                                   PIPO      
+          83  co654.    1661  2008   348 Years  VPU    1 Vera Platt Bradbury                                 PIPO      
+          84  co656.     500  2009  1510 Years  SMV    1 Summitville Bristlecone                             PIAR      
+          85  co658.    1319  2013   695 Years  ATR    1 Almont Triangle Update                              PSME      
+          86  co659.    1770  2002   233 Years  BALDMT 1 Bald Mountain                                       PIPO      
+          87  co660.    1450  2013   564 Years  CHOKED 1 Chokecherry Canyon Update                           PIED      
+          88  co662.     203  2004  1802 Years  EAGLEX 1 Eagle Extended                                      PSME      
+          89  co665.    1720  2003   284 Years  HER    1 Mount Hermon                                        PSME      
+          90  co666.    1615  2001   387 Years  JOHNNY 1 Johnny Park                                         PIPO      
+          91  co668.    1750  2000   251 Years  MONPAS 1 Monarch Pass                                        PSME      
+          92  co670.    1587  2002   416 Years  NCREST 1 North Crestone Creek                                PIED      
+          93  co671.    1200  2005   806 Years  NPU    1 North Park Update 2                                 PSME      
+          94  co675.    1634  2003   370 Years  TURKEY 1 Turkey Creek Update                                 PIPO      
+          95  co595.    1380  2001   622 Years  COL    1 Collins Gulch                                       PIED      
+          96  co599.    1640  2000   361 Years  DOU    1 Douglas Pass                                        PSME      
+          97  co600.    1536  2000   465 Years  DRY    1 Dry Park                                            PIED      
+          98  co605.    1383  2002   620 Years  GOU    1 Gould Reservoir                                     PIED      
+          99  co612.    1440  2002   563 Years  MTR    1 Montrose                                            PIED      
+         100  co615.    1480  2001   522 Years  PIC    1 Piceance                                            PIED      
+         101  co616.    1370  2000   631 Years  PLU    1 Plug Hat Butte                                      PIED      
+         102  co621.    1450  2000   551 Years  RIF    1 Rifle                                               PIED      
+         103  co626.    1490  2002   513 Years  SLK    1 Slickrock                                           PIED      
+         104  co629.    1400  2002   603 Years  UNA    1 Unaweep Canyon                                      PIED      
+         105  co638.    1566  2002   437 Years  gvr    1 Grand View Ridge                                    PIED      
+         106  co647.    1230  2005   776 Years  NAV    1 Navajo Canyon                                       PSME      
+         107  co651.     980  2011  1032 Years  MAN    1 Mancos River                                        PSME UAFAC
+         108  co652.     750  2011  1262 Years  MANMV  1 Mancos River + Mesa Verde                           PSME UAFAC
+         109  co661.    1604  2002   399 Years  DISVAL 1 Disappointment Valley                               PIED      
+         110  co664.    1383  2013   631 Years  GOU    1 Gould Reservoir Update                              PIED      
+         111  co673.    1250  2004   755 Years  PICEAN 1 Piceance Update                                     PIED      
+         112  co674.    1360  2004   645 Years  RIFLEP 1 Rifle Update                                        PIED      
+         113  co676.     990  2013  1024 Years  UNAWEP 1 Unaweep Canyon Extended                             PIED      
+         114  nm581.    1520  2003   484 Years  ltb    1 Las Tablas                                          PIED      
+         115  nm582.    1575  2003   429 Years  trp    1 Tres Piedras                                        PIPO      
+         116  nm583.    1380  2007   628 Years  EAU    1 Echo Amphitheater Recollection                      PSME      
+         117  nm584.    1450  2007   558 Years  MEA    1 Mesa Alta                                           PSME  PISF
+         118  nm585.    1690  2007   318 Years  BCM    1 Bear Canyon Middle                                  PISF      
+         119  nm586.    1700  2007   308 Years  BCW    1 Bear Canyon West                                    PSME  PISF
+         120  nm587.    1530  2007   478 Years  FEN    1 Fenton Lake Recollection                            PSME      
+         121  nm588.    1500  2011   512 Years  CDP    1 Canyon del Potrero, Mesa Alta                       PIPO      
+         122  nm593.    1380  2008   629 Years  EAU    1 Echo Amphitheater                                   PSME      
+         123  nm602.    1643  2009   367 Years  PCM    1 Pueblita Canyon                                     PSME      
+         124  nm605.    1541  2008   468 Years  RPU    1 Rio Pueblo                                          PIPO      
+         125  nm618.    1850  2011   162 Years  CMM    1 Jimez Mountains                                     PIPO      
+         126  nm580.     600  2004  1405 Years  TUB    1 El Malpais update                                   PSME UAFAC
+         127  nm592.    1610  2008   399 Years  DCU    1 Ditch Canyon                                        PSME      
+         128  nm615.     600  3508  2909 Years  MLC    1 El Malpais National Monument Update                 PSME      
+         129  ut516.    1600  2000   401 Years  CB     1 Coal Bench                                          PIED      
+         130  ut521.    1680  2000   321 Years  SK1    1 Skutumpah Road #1                                   PIED      
+         131  ut522.    1600  2000   401 Years  SK2    1 Skutumpah Road #2                                   PIED      
+         132  ut524.    1520  2002   483 Years  nmm    1 No Man Mesa                                         PIED      
+         133  ut525.    1365  2001   637 Years  DJM    1 Dutch John Mountain                                 PIED      
+         134  ut527.    1200  2001   802 Years  WED    1 Well's Draw                                         PIED      
+         135  ut529.    1300  2005   706 Years  BFB    1 Beef Basin                                          PSME      
+         136  ut530.       0  2005  2006 Years  HAR    1 Harmon Canyon                                       PSME      
+         137  ut544.    1347  2009   663 Years  WCM    1 White Canyon                                        PSME      
+         138  ut526.    1300  2001   702 Years  NUR    1 Nutter's Ridge                                      PIED      
+         139  ut531.    1173  2010   838 Years  LFR    1 Left Hand Fork                                      JUSC      
+         140  ut532.    1530  2010   481 Years  JTR    1 Jardine Juniper Trail                               JUSC      
+         141  ut533.    1450  2011   562 Years  TNR    1 Tanner Ridge                                        PIED      
+         142  ut534.    1580  2011   432 Years  RSM    1 Rattlesnake Mountain                                PIED      
+         143  ut535.    1350  2006   657 Years  BFL    1 Big Flat Ridge                                      PIFL      
+         144  ut536.    1540  2012   473 Years  MCD    1 Maguire Canyon                                      PSME      
+         145  ut537.    1330  2011   682 Years  WRD    1 Willard Ridge                                       PSME      
+         146  ut538.    1400  2010   611 Years  NAD    1 Naomi Peak                                          PSME      
+         147  ut539.    1570  2005   436 Years  USC    1 Upper Sand Creek Research Natural Area              PIPO      
+         148  ut540.    1855  2006   152 Years  PFL    1 Pando clone Fishlake, Utah                          PPTR      
+         149  ut541.     800  2013  1214 Years  SFC    1 South Fork Chalk Creek                              JUOS      
+         150  ut542.    1530  2012   483 Years  CC1    1 Card Canyon                                         JUOS      
+         151  wy028.    1459  2000   542 Years  WSK    1 Whiskey Mountain                                    PSME      
+         152  wy031.    1380  2001   622 Years  enc5   1 Encampment                                          PSME      
+         153  wy032.    1680  2001   322 Years  VED    1 Vedauwoo                                            PIPO      
+         154  wy033.    1760  2005   246 Years  HSB    1 Hot Springs Basin                                   PIAL      
+         155  wy036.    1810  2009   200 Years  KV     1 Kretec Vale                                         PICO      
+         156  wy039.    1500  2007   508 Years  CFY    1 Clarks Fork Yellowstone NW                          PSME      
+         157  wy041.    1380  2007   628 Years  LLR    1 Louis Lake Road                                     PIFL      
+         158  wy045.    1600  2006   407 Years  FME    1 Fremont Lake                                        PSME      
+         159  wy046.    1730  2012   283 Years  BLA    1 Parker Peak                                         PCEN      
+         160  wy048.    1730  2010   281 Years  CBR    1 Chittenden Bridge                                   PICO      
+         161  wy051.    1880  2009   130 Years  NUP    1 Norris Upland                                       PICO      
+         162  wy053.    1580  2006   427 Years  GVR    1 Gros Ventre Road                                    PIFL      
+         163  wy054.    1850  2006   157 Years  HRI    1 Hoback Ridge                                        PIFL      
+         164  wy055.    1760  2006   247 Years  HRI    1 Hoback Ridge                                        PSME      
+         165  wy056.    1495  2006   512 Years  MMT    1 Munger Mountain                                     PIFL      
+         166  wy040.    1500  2000   501 Years  DIN    1 Dead Indian Hill update                             PSME      
+         167  wy042.    1380  2006   627 Years  ARE    1 Anderson Ridge East                                 PIFL      
+
+         Tree-ring series retained for modeling:
+
+             1    5  1900  2004   ks011.   LSB    1 Lazy S - B Ranch                                    QUST      
+             2    6  1900  2004   ks012.   TGP    1 Tallgrass Prairie Preserve                          QUMA      
+             3    7  1900  2004   ks013.   CBK    1 Cedar Bluff Reservoir                               JUVI      
+             4    8  1900  2004   mn029.   W-RJH  1 Bois de Sioux Golf Course                           QUMA      
+             5    9  1900  2004   mn030.   W-WEL  1 Welles Park                                         QUMA      
+             6   11  1900  2004   mo046.   LOH    1 Brickyard Conservation Area, Loess Hills            QUMA      
+             7   12  1900  2004   mo047.   LM     1 Grand River Basin                                   QUSP      
+             8   17  1900  2004   mo053.   SEMO   1 Southeastern Missouri                               QUVE      
+             9   28  1900  2004   mo077.   GUYUSA 1 Missouri Living/Subfossil                           QUSP      
+            10   29  1900  2004   mo079.   MOACS  1 Missouri Ozark Site Flux Tower                      ACSH      
+            11   31  1900  2004   nd009.   G-LCN  1 Lincoln Park                                        QUMA      
+            12   32  1900  2004   nd010.   F-OGR  1 Oak Grove Park                                      QUMA      
+            13   33  1900  2004   nd011.   F-RRT  1 Red River Trail                                     QUMA      
+            14   34  1900  2004   nd012.   F-LIN  1 Lindenwood Park                                     QUMA      
+            15   35  1900  2004   ne009.   MCP    1 Fort McPherson                                      JUVI      
+            16   36  1900  2004   ok034.   TLY    1 Nickel Preserve                                     PIEC      
+            17   37  1900  2004   ok035.   OGMA   1 Okmulgee Game Management Area update                QUST      
+            18   40  1900  2004   ok038.   Short  1 Shortleaf Canyon                                    PIEC      
+            19   44  1900  2004   ok044.   SAL    1 South Arcadia Lake                                  QUST      
+            20   45  1900  2004   ok045.   IRV    1 Keystone                                            JUVI      
+            21   46  1900  2004   ok046.   PAT    1 Pattons Bluff                                       JUVI      
+            22   47  1900  2004   sd020.   MR     1 Moreau River                                        PPDE      
+            23   52  1900  2004   co588.   vpb    1 Platt Bradbury                                      PIPO      
+            24   79  1900  2004   co646.   GMR20  1 Green Mountain Reservoir update                     PSME      
+            25   82  1900  2004   co653.   SFK    1 South Fork Update                                   PIPO      
+            26   83  1900  2004   co654.   VPU    1 Vera Platt Bradbury                                 PIPO      
+            27   84  1900  2004   co656.   SMV    1 Summitville Bristlecone                             PIAR      
+            28   85  1900  2004   co658.   ATR    1 Almont Triangle Update                              PSME      
+            29   87  1900  2004   co660.   CHOKED 1 Chokecherry Canyon Update                           PIED      
+            30   88  1900  2004   co662.   EAGLEX 1 Eagle Extended                                      PSME      
+            31   93  1900  2004   co671.   NPU    1 North Park Update 2                                 PSME      
+            32  106  1900  2004   co647.   NAV    1 Navajo Canyon                                       PSME      
+            33  107  1900  2004   co651.   MAN    1 Mancos River                                        PSME UAFAC
+            34  108  1900  2004   co652.   MANMV  1 Mancos River + Mesa Verde                           PSME UAFAC
+            35  110  1900  2004   co664.   GOU    1 Gould Reservoir Update                              PIED      
+            36  111  1900  2004   co673.   PICEAN 1 Piceance Update                                     PIED      
+            37  112  1900  2004   co674.   RIFLEP 1 Rifle Update                                        PIED      
+            38  113  1900  2004   co676.   UNAWEP 1 Unaweep Canyon Extended                             PIED      
+            39  116  1900  2004   nm583.   EAU    1 Echo Amphitheater Recollection                      PSME      
+            40  117  1900  2004   nm584.   MEA    1 Mesa Alta                                           PSME  PISF
+            41  118  1900  2004   nm585.   BCM    1 Bear Canyon Middle                                  PISF      
+            42  119  1900  2004   nm586.   BCW    1 Bear Canyon West                                    PSME  PISF
+            43  120  1900  2004   nm587.   FEN    1 Fenton Lake Recollection                            PSME      
+            44  121  1900  2004   nm588.   CDP    1 Canyon del Potrero, Mesa Alta                       PIPO      
+            45  122  1900  2004   nm593.   EAU    1 Echo Amphitheater                                   PSME      
+            46  123  1900  2004   nm602.   PCM    1 Pueblita Canyon                                     PSME      
+            47  124  1900  2004   nm605.   RPU    1 Rio Pueblo                                          PIPO      
+            48  125  1900  2004   nm618.   CMM    1 Jimez Mountains                                     PIPO      
+            49  126  1900  2004   nm580.   TUB    1 El Malpais update                                   PSME UAFAC
+            50  127  1900  2004   nm592.   DCU    1 Ditch Canyon                                        PSME      
+            51  128  1900  2004   nm615.   MLC    1 El Malpais National Monument Update                 PSME      
+            52  135  1900  2004   ut529.   BFB    1 Beef Basin                                          PSME      
+            53  136  1900  2004   ut530.   HAR    1 Harmon Canyon                                       PSME      
+            54  137  1900  2004   ut544.   WCM    1 White Canyon                                        PSME      
+            55  139  1900  2004   ut531.   LFR    1 Left Hand Fork                                      JUSC      
+            56  140  1900  2004   ut532.   JTR    1 Jardine Juniper Trail                               JUSC      
+            57  141  1900  2004   ut533.   TNR    1 Tanner Ridge                                        PIED      
+            58  142  1900  2004   ut534.   RSM    1 Rattlesnake Mountain                                PIED      
+            59  143  1900  2004   ut535.   BFL    1 Big Flat Ridge                                      PIFL      
+            60  144  1900  2004   ut536.   MCD    1 Maguire Canyon                                      PSME      
+            61  145  1900  2004   ut537.   WRD    1 Willard Ridge                                       PSME      
+            62  146  1900  2004   ut538.   NAD    1 Naomi Peak                                          PSME      
+            63  147  1900  2004   ut539.   USC    1 Upper Sand Creek Research Natural Area              PIPO      
+            64  148  1900  2004   ut540.   PFL    1 Pando clone Fishlake, Utah                          PPTR      
+            65  149  1900  2004   ut541.   SFC    1 South Fork Chalk Creek                              JUOS      
+            66  150  1900  2004   ut542.   CC1    1 Card Canyon                                         JUOS      
+            67  154  1900  2004   wy033.   HSB    1 Hot Springs Basin                                   PIAL      
+            68  155  1900  2004   wy036.   KV     1 Kretec Vale                                         PICO      
+            69  156  1900  2004   wy039.   CFY    1 Clarks Fork Yellowstone NW                          PSME      
+            70  157  1900  2004   wy041.   LLR    1 Louis Lake Road                                     PIFL      
+            71  158  1900  2004   wy045.   FME    1 Fremont Lake                                        PSME      
+            72  159  1900  2004   wy046.   BLA    1 Parker Peak                                         PCEN      
+            73  160  1900  2004   wy048.   CBR    1 Chittenden Bridge                                   PICO      
+            74  161  1900  2004   wy051.   NUP    1 Norris Upland                                       PICO      
+            75  162  1900  2004   wy053.   GVR    1 Gros Ventre Road                                    PIFL      
+            76  163  1900  2004   wy054.   HRI    1 Hoback Ridge                                        PIFL      
+            77  164  1900  2004   wy055.   HRI    1 Hoback Ridge                                        PSME      
+            78  165  1900  2004   wy056.   MMT    1 Munger Mountain                                     PIFL      
+            79  167  1900  2004   wy042.   ARE    1 Anderson Ridge East                                 PIFL      
+
+         Tree-ring data type:               ring indices
+         Data format:                       tucson trl
+         Common first year:                 1900
+         Common last year:                  2004
+         Number of years:                    105
+         Number of series:                    79
+
+         Autoregressive modeling of predictors:
+
+         Time period used to estimate autoregression: 1900 - 2004
+
+         Series   Order   RSQ     AIC    Autoregressive Coeffs: Order AR(1)-AR(ip)
+            1       0   0.000  -330.08
+            2       1   0.395  -395.42   0.629
+            3       1   0.347  -326.10   0.589
+            4       1   0.085  -346.75   0.292
+            5       1   0.025  -366.52   0.159
+            6       0   0.000  -438.35
+            7       2   0.042  -452.50   0.106  0.164
+            8       0   0.000  -437.86
+            9       0   0.000  -470.03
+           10       1   0.126  -276.90   0.354
+           11       1   0.142  -316.81   0.377
+           12       1   0.278  -328.91   0.527
+           13       1   0.185  -363.06   0.430
+           14       1   0.061  -333.88   0.247
+           15       1   0.218  -270.90   0.467
+           16       3   0.166  -252.97   0.249  0.297 -0.181
+           17       1   0.034  -361.74   0.183
+           18       2   0.321  -264.43   0.463  0.159
+           19       1   0.076  -309.94   0.276
+           20       1   0.122  -304.38   0.350
+           21       1   0.112  -378.50   0.334
+           22       1   0.100  -261.22   0.316
+           23       1   0.050  -237.62   0.224
+           24       1   0.141  -253.41   0.376
+           25       2   0.047  -250.93   0.102  0.180
+           26       0   0.000  -251.61
+           27       1   0.131  -259.05   0.362
+           28       0   0.000  -242.07
+           29       2   0.043  -161.54  -0.104  0.168
+           30       1   0.221  -268.98   0.471
+           31       1   0.066  -261.62   0.257
+           32       2   0.154  -144.69   0.259  0.220
+           33       2   0.198  -187.93   0.310  0.219
+           34       2   0.145  -195.02   0.245  0.224
+           35       2   0.205  -303.95   0.322  0.212
+           36       2   0.282  -362.98   0.436  0.153
+           37       2   0.062  -273.69   0.166  0.156
+           38       0   0.000  -202.82
+           39       2   0.170  -210.30   0.201  0.306
+           40       2   0.075  -182.24   0.203  0.142
+           41       2   0.244  -301.99   0.388  0.174
+           42       2   0.149  -287.50   0.224  0.254
+           43       2   0.064  -228.61   0.124  0.202
+           44       2   0.092  -174.19   0.154  0.232
+           45       2   0.203  -219.81   0.244  0.303
+           46       1   0.126  -171.10   0.356
+           47       0   0.000  -243.41
+           48       0   0.000  -228.49
+           49       2   0.135  -162.87   0.257  0.192
+           50       2   0.325  -210.09   0.374  0.278
+           51       2   0.063  -173.41   0.160  0.166
+           52       2   0.235  -244.46   0.257  0.324
+           53       2   0.064  -221.61   0.164  0.163
+           54       3   0.237  -256.54   0.203  0.278  0.148
+           55       2   0.319  -380.49   0.401  0.238
+           56       2   0.175  -414.69   0.289  0.214
+           57       0   0.000  -358.78
+           58       1   0.193  -333.90   0.439
+           59       2   0.384  -494.88   0.517  0.149
+           60       2   0.376  -350.21   0.504  0.160
+           61       1   0.163  -403.55   0.404
+           62       1   0.260  -454.62   0.510
+           63       3   0.237  -272.70   0.123  0.262  0.261
+           64       2   0.559  -329.93   0.969 -0.431
+           65       1   0.267  -229.87   0.516
+           66       2   0.467  -378.10   0.406  0.352
+           67       1   0.578  -472.50   0.760
+           68       4   0.660  -450.24   0.916 -0.109 -0.003 -0.167
+           69       1   0.156  -354.22   0.395
+           70       2   0.240  -357.76   0.402  0.148
+           71       1   0.432  -319.43   0.657
+           72       1   0.063  -393.07   0.250
+           73       1   0.151  -418.14   0.389
+           74       2   0.348  -413.81   0.393  0.276
+           75       2   0.197  -286.26   0.267  0.270
+           76       2   0.268  -281.28   0.297  0.314
+           77       2   0.412  -288.24   0.449  0.261
+           78       2   0.120  -305.89   0.187  0.249
+           79       2   0.228  -361.37   0.342  0.216
+
+         The predictand data file:          colorado_best_sf.prn                    
+         No climate coordinates read in:              0
+         Climate coordinates format:                  None
+
+         Number of climate datasets:        1
+         Same format & climate mask:        y
+         Climate format option:             5
+         User defined format:               (i8,12f8.0)         
+         Climate mask:                                                                                                                                                                                                                                                                                               
+         JFMAMJJASONDJFMAMJJASONDJFMAMJJASONDJFMAMJJASONDJFMAMJJASOND                                                                                                                                                                                                                                                
+         000011130000                                                
+
+         DATA TITLE:
+                 January FebruaryMarch   April   May     June    July    August  SeptembeOctober NovemberDecember                                                                                                                                                                                                    
+
+         Common first year:              1975
+         Common last year:               2004
+         Number of datasets retained:       1
+
+         Autoregressive modeling of predictands:
+
+         Time period used to estimate autoregression: 1975 - 2004
+
+         Series   Order   RSQ     AIC    Autoregressive Coeffs: Order AR(1)-AR(ip)
+            1       1   0.298   -39.41   0.546
+
+
+         Predictor-Predictand common period: 1975 - 2004     30 years
+
+         For the calibration period:
+              First year:                   1975
+              Last year:                    2001
+              Total years:                    27
+
+         Point-by-Point Regression option chosen
+
+         Criteria for screening predictors:
+
+         Probability level for screening correlations:    0.1000
+         Number of tails for testing correlations:         2
+         Eigenvector selection criterion:                  Eigenvalue-1
+         Regression model selection criterion:             minimum AIC
+
+
+         Predictand     1
+
+         Predictor    1 pass:  r = -.343*  t = -1.82  pct = 0.077  ks011.   LSB    1 Lazy
+         Predictor    6 pass:  r = -.562*  t = -3.40  pct = 0.002  mo046.   LOH    1 Bric
+         Predictor    7 pass:  r = -.379*  t = -2.05  pct = 0.049  mo047.   LM     1 Gran
+         Predictor    8 pass:  r = -.497*  t = -2.86  pct = 0.008  mo053.   SEMO   1 Sout
+         Predictor    9 pass:  r = -.535*  t = -3.17  pct = 0.004  mo077.   GUYUSA 1 Miss
+         Predictor   19 pass:  r = -.531*  t = -3.13  pct = 0.004  ok044.   SAL    1 Sout
+         Predictor   20 pass:  r = -.368*  t = -1.98  pct = 0.056  ok045.   IRV    1 Keys
+         Predictor   22 pass:  r = -.441*  t = -2.45  pct = 0.020  sd020.   MR     1 More
+         Predictor   23 pass:  r = -.613*  t = -3.88  pct = 0.001  co588.   vpb    1 Plat
+         Predictor   24 pass:  r = -.331*  t = -1.75  pct = 0.088  co646.   GMR20  1 Gree
+         Predictor   25 pass:  r = -.513*  t = -2.99  pct = 0.006  co653.   SFK    1 Sout
+         Predictor   26 pass:  r = -.460*  t = -2.59  pct = 0.015  co654.   VPU    1 Vera
+         Predictor   28 pass:  r = -.652*  t = -4.30  pct = 0.000  co658.   ATR    1 Almo
+         Predictor   29 pass:  r = -.404*  t = -2.21  pct = 0.035  co660.   CHOKED 1 Chok
+         Predictor   30 pass:  r = -.583*  t = -3.59  pct = 0.001  co662.   EAGLEX 1 Eagl
+         Predictor   32 pass:  r = -.548*  t = -3.28  pct = 0.003  co647.   NAV    1 Nava
+         Predictor   33 pass:  r = -.620*  t = -3.95  pct = 0.001  co651.   MAN    1 Manc
+         Predictor   34 pass:  r = -.610*  t = -3.85  pct = 0.001  co652.   MANMV  1 Manc
+         Predictor   35 pass:  r = -.659*  t = -4.38  pct = 0.000  co664.   GOU    1 Goul
+         Predictor   36 pass:  r = -.551*  t = -3.30  pct = 0.003  co673.   PICEAN 1 Pice
+         Predictor   37 pass:  r = -.678*  t = -4.61  pct = 0.000  co674.   RIFLEP 1 Rifl
+         Predictor   38 pass:  r = -.706*  t = -4.98  pct = 0.000  co676.   UNAWEP 1 Unaw
+         Predictor   39 pass:  r = -.615*  t = -3.89  pct = 0.001  nm583.   EAU    1 Echo
+         Predictor   40 pass:  r = -.574*  t = -3.51  pct = 0.002  nm584.   MEA    1 Mesa
+         Predictor   41 pass:  r = -.566*  t = -3.43  pct = 0.002  nm585.   BCM    1 Bear
+         Predictor   42 pass:  r = -.625*  t = -4.00  pct = 0.001  nm586.   BCW    1 Bear
+         Predictor   43 pass:  r = -.616*  t = -3.91  pct = 0.001  nm587.   FEN    1 Fent
+         Predictor   44 pass:  r = -.687*  t = -4.73  pct = 0.000  nm588.   CDP    1 Cany
+         Predictor   45 pass:  r = -.615*  t = -3.90  pct = 0.001  nm593.   EAU    1 Echo
+         Predictor   46 pass:  r = -.485*  t = -2.77  pct = 0.010  nm602.   PCM    1 Pueb
+         Predictor   47 pass:  r = -.484*  t = -2.76  pct = 0.010  nm605.   RPU    1 Rio 
+         Predictor   48 pass:  r = -.571*  t = -3.47  pct = 0.002  nm618.   CMM    1 Jime
+         Predictor   49 pass:  r = -.586*  t = -3.61  pct = 0.001  nm580.   TUB    1 El M
+         Predictor   50 pass:  r = -.647*  t = -4.25  pct = 0.000  nm592.   DCU    1 Ditc
+         Predictor   51 pass:  r = -.507*  t = -2.94  pct = 0.007  nm615.   MLC    1 El M
+         Predictor   52 pass:  r = -.555*  t = -3.34  pct = 0.003  ut529.   BFB    1 Beef
+         Predictor   53 pass:  r = -.525*  t = -3.08  pct = 0.005  ut530.   HAR    1 Harm
+         Predictor   54 pass:  r = -.572*  t = -3.48  pct = 0.002  ut544.   WCM    1 Whit
+         Predictor   55 pass:  r = -.322*  t = -1.70  pct = 0.098  ut531.   LFR    1 Left
+         Predictor   57 pass:  r = -.551*  t = -3.30  pct = 0.003  ut533.   TNR    1 Tann
+         Predictor   58 pass:  r = -.605*  t = -3.80  pct = 0.001  ut534.   RSM    1 Ratt
+         Predictor   63 pass:  r = -.396*  t = -2.16  pct = 0.039  ut539.   USC    1 Uppe
+         Predictor   65 pass:  r = -.363*  t = -1.95  pct = 0.060  ut541.   SFC    1 Sout
+         Predictor   71 pass:  r = -.404*  t = -2.21  pct = 0.035  wy045.   FME    1 Frem
+         Predictor   75 pass:  r = -.388*  t = -2.11  pct = 0.043  wy053.   GVR    1 Gros
+         Predictor   76 pass:  r = -.491*  t = -2.82  pct = 0.009  wy054.   HRI    1 Hoba
+         Predictor   77 pass:  r = -.344*  t = -1.83  pct = 0.076  wy055.   HRI    1 Hoba
+         Predictor   78 pass:  r = -.534*  t = -3.16  pct = 0.004  wy056.   MMT    1 Mung
+
+           48 Predictors passed for predictand     1
+
+                       Principal Component Analysis Of Predictors
+
+         Component   Orig Lamda   Res Lamda   % Variance   Cumulative %   Cum Product
+
+              1        21.309      11.986        44.394        44.394         11.986
+              2         6.822       3.838        14.213        58.607         45.998
+              3         3.228       1.816         6.725        65.332         83.524
+              4         2.612       1.469         5.441        70.773        122.704
+              5         2.087       1.174         4.348        75.122        144.059
+              6         1.818       1.023         3.787        78.909        147.313
+              7         1.562       0.878         3.253        82.162        129.395
+              8         1.363       0.767         2.839        85.002         99.202
+              9         1.112       0.625         2.316        87.318         62.035
+             10         0.911       0.512         1.898        89.216         31.786
+             11         0.828       0.466         1.725        90.940         14.803
+             12         0.716       0.403         1.491        92.432          5.961
+             13         0.646       0.364         1.347        93.778          2.167
+             14         0.534       0.300         1.111        94.890          0.650
+             15         0.480       0.270         1.001        95.891          0.176
+             16         0.395       0.222         0.822        96.713          0.039
+             17         0.312       0.175         0.649        97.362          0.007
+             18         0.262       0.148         0.547        97.909          0.001
+             19         0.234       0.132         0.488        98.397          0.000
+             20         0.200       0.113         0.417        98.814          0.000
+             21         0.163       0.092         0.340        99.154          0.000
+             22         0.128       0.072         0.267        99.420          0.000
+             23         0.099       0.056         0.206        99.627          0.000
+             24         0.082       0.046         0.171        99.798          0.000
+             25         0.062       0.035         0.130        99.928          0.000
+             26         0.035       0.020         0.072       100.000          0.000
+             27         0.000       0.000         0.000       100.000          0.000
+1
+                                  Regression Model Results
+
+         Step  Eigen  Corr  t-stat   Prob   RSQ  Cum RSQ  Adj RSQ  Adj RE    AIC
+
+           1     1   0.789   6.425*0.0000*0.623   0.623   0.608*   0.594   -21.83*
+           2     3   0.242   1.249 0.2211 0.059   0.682   0.655*   0.630   -23.85*
+           3     2   0.124   0.624 0.5454 0.015   0.697   0.657*   0.621   -22.41 
+           4     6   0.103   0.519 0.6138 0.011   0.708   0.654    0.605   -20.34 
+           5     5   0.083   0.416 0.6835 0.007   0.714   0.646    0.583   -17.64 
+           6     4   0.052   0.262 0.7912 0.003   0.717   0.632    0.554   -14.20 
+
+         Best order model using minimum AIC criterion:  2
+         Percent variance explained:  68.16 %
+         Full model f-ratio:   25.69   prob: .00000     2 and   24 df
+
+         Regression Coefficients In Terms Of Original Screened Predictors
+
+         Number     Variable     Beta     Std Err   Predictor series used
+            1           1     -0.0421*    0.0029    ks011.   LSB    1 Lazy
+            2           6     -0.0592*    0.0079    mo046.   LOH    1 Bric
+            3           7     -0.0648*    0.0094    mo047.   LM     1 Gran
+            4           8     -0.0631*    0.0098    mo053.   SEMO   1 Sout
+            5           9     -0.0721*    0.0109    mo077.   GUYUSA 1 Miss
+            6          19     -0.0515*    0.0037    ok044.   SAL    1 Sout
+            7          20     -0.0133*    0.0004    ok045.   IRV    1 Keys
+            8          22     -0.0464*    0.0046    sd020.   MR     1 More
+            9          23     -0.0230*    0.0007    co588.   vpb    1 Plat
+           10          24      0.0140*    0.0041    co646.   GMR20  1 Gree
+           11          25     -0.0256*    0.0005    co653.   SFK    1 Sout
+           12          26     -0.0086*    0.0011    co654.   VPU    1 Vera
+           13          28     -0.0266*    0.0005    co658.   ATR    1 Almo
+           14          29     -0.0192*    0.0003    co660.   CHOKED 1 Chok
+           15          30     -0.0140*    0.0008    co662.   EAGLEX 1 Eagl
+           16          32     -0.0273*    0.0008    co647.   NAV    1 Nava
+           17          33     -0.0259*    0.0011    co651.   MAN    1 Manc
+           18          34     -0.0257*    0.0011    co652.   MANMV  1 Manc
+           19          35     -0.0306*    0.0008    co664.   GOU    1 Goul
+           20          36     -0.0087*    0.0011    co673.   PICEAN 1 Pice
+           21          37     -0.0126*    0.0015    co674.   RIFLEP 1 Rifl
+           22          38     -0.0163*    0.0017    co676.   UNAWEP 1 Unaw
+           23          39     -0.0429*    0.0014    nm583.   EAU    1 Echo
+           24          40     -0.0326*    0.0007    nm584.   MEA    1 Mesa
+           25          41     -0.0287*    0.0008    nm585.   BCM    1 Bear
+           26          42     -0.0336*    0.0009    nm586.   BCW    1 Bear
+           27          43     -0.0210*    0.0011    nm587.   FEN    1 Fent
+           28          44     -0.0358*    0.0009    nm588.   CDP    1 Cany
+           29          45     -0.0424*    0.0013    nm593.   EAU    1 Echo
+           30          46     -0.0348*    0.0008    nm602.   PCM    1 Pueb
+           31          47     -0.0228*    0.0005    nm605.   RPU    1 Rio 
+           32          48     -0.0215*    0.0009    nm618.   CMM    1 Jime
+           33          49     -0.0306*    0.0008    nm580.   TUB    1 El M
+           34          50     -0.0319*    0.0009    nm592.   DCU    1 Ditc
+           35          51     -0.0335*    0.0008    nm615.   MLC    1 El M
+           36          52     -0.0021     0.0034    ut529.   BFB    1 Beef
+           37          53     -0.0203*    0.0006    ut530.   HAR    1 Harm
+           38          54     -0.0169*    0.0015    ut544.   WCM    1 Whit
+           39          55     -0.0197*    0.0003    ut531.   LFR    1 Left
+           40          57     -0.0076*    0.0012    ut533.   TNR    1 Tann
+           41          58     -0.0126*    0.0007    ut534.   RSM    1 Ratt
+           42          63     -0.0177*    0.0009    ut539.   USC    1 Uppe
+           43          65     -0.0077*    0.0010    ut541.   SFC    1 Sout
+           44          71     -0.0308*    0.0010    wy045.   FME    1 Frem
+           45          75     -0.0175*    0.0002    wy053.   GVR    1 Gros
+           46          76     -0.0213*    0.0004    wy054.   HRI    1 Hoba
+           47          77     -0.0103*    0.0002    wy055.   HRI    1 Hoba
+           48          78     -0.0204*    0.0003    wy056.   MMT    1 Mung
+
+                        Mean     Std Dev     Skew     Kurtosis     Serial r
+
+         Actual      -0.0475      0.4473   1.2137      4.8495      -0.0499
+         Estimate     0.3885      0.3693   0.7307      2.3641      -0.0966
+         Residual     0.0000      0.2524  -0.0654      2.4792      -0.0815
+
+         Durbin-Watson Stat =    2.1512     degrees-of-freedom =  2  and  27
+
+         Positive Residuals =  15                Negative Residuals =  12
+         Expected number of runs =     14.33     Actual number of runs =  14
+         Too few runs z-score =        0.066     prob =  0.47358
+         Too many runs z-score =      -0.331     prob =  0.37019
+
+         Actual vs. Estimates correlation =       0.8256
+         Estimates vs. Residuals correlation =    0.0000
+         Actual vs. Residuals correlation =       0.5643
+
+         Insufficient data for verification, only  3 years
+
+
+         Final prewhitening of reconstructions prior to adding persistence
+
+         Series   Order   RSQ     AIC    Autoregressive Coeffs: Order AR(1)-AR(ip)
+            1       0   0.000   -54.10
+
+
+                         *** Reconstructions With Autoregression Added In ***
+
+
+                           Calibration Period Results On Undifferenced Data
+
+           Pearson      Robust      Spearman         RE and CE Statistics         Xprod Mean
+         -----------  -----------  -----------  -------------------------------  ------------
+    Var   Corr   Pct   Corr   Pct   Corr   Pct     RE      CE    MedRE   MedCE    tstat   Pct
+      1  0.820 0.000  0.785 0.000  0.776 0.000   0.669   0.669   0.662   0.644    2.568 0.008
+
+                          Calibration Period Results On 1st-differenced Data
+
+           Pearson      Robust      Spearman         RE and CE Statistics         Xprod Mean
+         -----------  -----------  -----------  -------------------------------  ------------
+    Var   Corr   Pct   Corr   Pct   Corr   Pct     RE      CE    MedRE   MedCE    tstat   Pct
+      1  0.828 0.000  0.826 0.000  0.829 0.000   0.686   0.686   0.691   0.679    3.264 0.002
+
+                           Verification Period Results On Undifferenced Data
+
+           Pearson      Robust      Spearman         RE and CE Statistics         Xprod Mean
+         -----------  -----------  -----------  -------------------------------  ------------
+    Var   Corr   Pct   Corr   Pct   Corr   Pct     RE      CE    MedRE   MedCE    tstat   Pct
+      1  0.448 0.349 -0.643 1.000  0.500 0.331   0.924  -1.289   0.924  -2.582     -NaN   NaN
+
+                          Verification Period Results On 1st-differenced Data
+
+           Pearson      Robust      Spearman         RE and CE Statistics         Xprod Mean
+         -----------  -----------  -----------  -------------------------------  ------------
+    Var   Corr   Pct   Corr   Pct   Corr   Pct     RE      CE    MedRE   MedCE    tstat   Pct
+      1  1.000   NaN  1.000 1.000  1.000   NaN   0.048  -0.029   0.048  -0.029     -NaN   NaN

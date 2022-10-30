@@ -1,0 +1,713 @@
+
+         Old log file opened:               pcregOSX_log.txt                        
+         Intermediate output files will be saved
+
+         Title: high elev recharge clim fp JJA                                   
+
+         The predictor data file:           OK_crns_arstan_fixed-eps-1995.txt       
+
+         No tree-ring coordinates read in:            0
+         Tree-ring coordinates format:                None
+
+           1  can009    1598  1995   398 Years  STN    1 LOWER CANYON, STEIN VALLEY, BRITISH COLUMBIA        PSME      
+           2  can010    1496  1995   500 Years  STN    1 LOWER CANYON, STEIN VALLEY, BRITISH COLUMBIA        PIPO      
+           3  can150    1689  1998   310 Years  BWT    1 BIG WHITE, BRITISH COLUMBIA                         PCEN      
+           4  can151    1669  1998   330 Years  BWT    1 BIG WHITE, BRITISH COLUMBIA                         PICO      
+           5  can152    1712  1998   287 Years  BWT    1 BIG WHITE, BRITISH COLUMBIA                         ABLA      
+           6  can161    1710  1996   287 Years  ADM    1 ADAMS LAKE, BRITISH COLUMBIA                        PCEN      
+           7  can162    1692  1996   305 Years  ADM    1 ADAMS LAKE, BRITISH COLUMBIA                        ABLA      
+           8  can174    1394  1999   606 Years  CAI    1 Mount Cain                                          ABAM      
+           9  can220     730  1996  1267 Years  WPP    1 Whirlpool Point                                     PIFL      
+          10  can223    1798  1997   200 Years  A98    1 Glacier                                             PCEN      
+          11  can225    1669  1997   329 Years  M98    2 Canada       Engelmann Spruce  2100M  5014-11705    __    1669
+          12  can226    1710  1997   288 Years  E98    1 Kokanee                                             PCEN      
+          13  can227    1731  1997   267 Years  I98    1 Idaho Lookout                                       PCEN      
+          14  can228    1573  1997   425 Years  Y98    1 Ymir                                                PCEN      
+          15  can229    1724  1997   274 Years  O98    1 Old Glory                                           PCEN      
+          16  can230    1698  1997   300 Years  K98    1 Kootenay                                            PCEN      
+          17  can231    1477  1997   521 Years  P98    1 Park Mountain                                       PCEN      
+          18  can232    1822  1997   176 Years  Q98    1 Silverstar                                          PCEN      
+          19  can233    1714  1997   284 Years  N98    1 Galloping Mountain                                  PCEN      
+          20  can234    1512  1997   486 Years  B98    1 Big White 2                                         PCEN      
+          21  can235    1569  1997   429 Years  D98    1 Mt. Baldy                                           PCEN      
+          22  can236    1789  1997   209 Years  G98    1 Grey Creek                                          PCEN      
+          23  can237    1694  1997   304 Years  V98    1 Pavilion Mountain                                   PCEN      
+          24  can238    1554  1997   444 Years  C98    1 Cornwall Hills                                      PCEN      
+          25  can239    1708  1997   290 Years  H98    1 Mt. Chuwells                                        PCEN      
+          26  can240    1816  1997   182 Years  T98    1 Promontory                                          PCEN      
+          27  can241    1702  1997   296 Years  Z98    1 Zum Peak                                            PCEN      
+          28  can242    1809  1997   189 Years  L98    1 Lone Man                                            PCEN      
+          29  can308    1200  2005   806 Years  G06    1 Grays Creek Pass Recollection                       LALY      
+          30  can327    1576  2007   432 Years  DEA    1 Douglas Fir Ecological Area                         PSME      
+          31  can328    1018  2008   991 Years  SFR    1 Siffleur Ridge                                      PIFL      
+          32  can329    1617  2007   391 Years  SKC    1 Saskatchewan Crossing                               PIFL      
+          33  can330    1062  2007   946 Years  WPP    1 Whirlpool Point                                     PIFL      
+          34  can331    1555  2008   454 Years  WRC    1 Whiterabbit Creek                                   PSME      
+          35  can332    1482  2004   523 Years  BDC    1 Beaver Dam Creek - Whalebacks                       PSME      
+          36  can333    1375  2004   630 Years  CBCR   1 Cabin Creek - Porcupine Hills                       PSME      
+          37  can334    1572  2004   433 Years  CaC    1 Callum Creek - Whalebacks                           PSME      
+          38  can335    1450  2004   555 Years  EL     1 Emerald Lake - Crowsnest Pass                       PIFL      
+          39  can336    1203  2007   805 Years  OMR    1 Old Man River - Whaleback Ridge                     PSME      
+          40  can343    1618  2004   387 Years  DC     1 Dutch Creek                                         PSME      
+          41  can344    1860  2006   147 Years  FLK    1 Fighting Lake                                       PIBN      
+          42  can346    1734  2003   270 Years  DC     1 Dry Coulee - Porcupine Hills                        PSME      
+          43  can348    1752  2004   253 Years  SR     1 Swan Hills - Swan River                             PCGL      
+          44  can349    1733  2004   272 Years  SH     1 Swan Hills - Swan River                             PIBN      
+          45  can350    1496  2007   512 Years  TWO    1 Two O'Clock Creek                                   PSME      
+          46  can352    1069  1993   925 Years  FR     1 French Glacier                                      LALY      
+          47  can353     932  1999  1068 Years  Y      1 Grassy Mountain                                     PIAL      
+          48  can356    1000  1999  1000 Years  P      1 Peyto Forefield and Num-ti-jah                      PIAL      
+          49  can357     950  1998  1049 Years  S      1 Saskatchewan                                        PIAL      
+          50  can388    1508  2002   495 Years  B3W    1 Sweeney                                             PICO      
+          51  can391    1789  1997   209 Years  G98    1 Grey Creek                                          TSME      
+          52  can395    1519  1999   481 Years  E00    1 Blaeberry                                           PIAL      
+          53  can396    1489  1999   511 Years  F00    1 Mt. Forster                                         PIAL      
+          54  can398    1390  1997   608 Years  J98    1 Jumbo Pass                                          PIAL      
+          55  can399    1477  1999   523 Years  A00    1 Lakit                                               PIAL      
+          56  can400    1571  1999   429 Years  V00    1 Lavina                                              PIAL      
+          57  can401    1715  1999   285 Years  C00    1 McMurdo                                             PIAL      
+          58  can403    1670  1999   330 Years  T00    1 Trout Lake                                          PIAL      
+          59  can408    1488  1999   512 Years  LG     1 Grassy Mountain                                     LALY      
+          60  can424    1700  2005   306 Years  W      1 Whitewater Ski Hill                                 LALY      
+          61  can426    1534  2008   475 Years  JB8    1 Jasper Benchlands                                   PSME      
+          62  can427    1749  2008   260 Years  JY8    1 Pyramid Lake Fire Road                              PSME      
+          63  can428    1749  2006   258 Years  A7K    1 Katrine                                             PSME      
+          64  can429    1693  2006   314 Years  A7M    1 Upper Mina                                          PSME      
+          65  can434    1575  2000   426 Years  P01    1 Bow Summit/Peyto Lake                               PCEN      
+          66  can439    1428  2000   573 Years  H01    1 Hilda                                               PCEN      
+          67  can442    1809  2002   194 Years  b3m    1 Morphee                                             PCEN      
+          68  can454    1692  2002   311 Years  B3T    1 Ten Mile                                            PCEN      
+          69  can455    1755  2002   248 Years  B3U    1 Tumuch                                              PCEN      
+          70  can456    1722  2001   280 Years  W01    1 Wilcox                                              PCEN      
+          71  can464    1850  2012   163 Years  HUSAF  1 Hurley Road                                         ABLA      
+          72  can465    1412  1995   584 Years  95CR   1 Cream Lake                                          TSME      
+          73  can466    1708  1996   289 Years  96F    1 Douglas Peak                                        TSME      
+          74  can467    1647  2012   366 Years  FGMH   1 Franklin Glacier                                    TSME      
+          75  can468    1711  2012   302 Years  JLMH   1 Joffre Lakes                                        TSME      
+          76  can469    1750  2010   261 Years  10MG   1 M. Gurr Lake                                        TSME      
+          77  can470    1668  1997   330 Years  97I    1 Mount Becher                                        TSME      
+          78  can471    1490  2008   519 Years  97N    1 Mount Cain                                          TSME      
+          79  can472    1784  1996   213 Years  96H    1 Mount Porter                                        TSME      
+          80  can473    1699  1996   298 Years  96B    1 TAD Ridge                                           TSME      
+          81  can474    1784  1996   213 Years  96C    1 Wapiti Ridge                                        TSME      
+          82  can476    1658  2010   353 Years  10NUS  1 Nusatsum Pass                                       TSME      
+          83  cana47    1874  1998   125 Years  97HP2  1 Hump Lakes                                          TSME      
+          84  can481    1729  1997   269 Years  97TZ   1 Tzeetsaytsul Glacier                                ABLA      
+          85  can482    1682  2003   322 Years  03BG4  1 Bridge Glacier                                      ABLA      
+          86  can483    1721  2000   280 Years  01G4   1 Byamee Glacier                                      ABLA      
+          87  can484    1857  2002   146 Years  02FG   1 Fyles Glacier                                       ABLA      
+          88  can485    1760  2009   250 Years  10JCB  1 Jacobsen Glacier                                    ABLA      
+          89  can486    1714  2000   287 Years  01C4   1 Liberty Glacier                                     ABLA      
+          90  can487    1644  2000   357 Years  00B    1 Oval Glacier                                        ABLA      
+          91  can488    1629  2000   372 Years  01I4   1 Ragnarok Glacier                                    ABLA      
+          92  can490    1623  2010   388 Years  10BJ   1 Blue Jay Lake                                       TSME      
+          93  can491    1673  2000   328 Years  01J2   1 Cathedral Glacier                                   TSME      
+          94  can492    1642  2000   359 Years  01J4   1 Cathedral Glacier                                   ABLA      
+          95  can493    1793  2000   208 Years  01E4   1 Escape Glacier                                      ABLA      
+          96  can494    1723  2001   279 Years  01A4   1 Hope Glacier                                        ABLA      
+          97  can495    1573  2007   435 Years  06MG   1 Manatee Glacier                                     ABLA      
+          98  can496    1592  1999   408 Years  99H4   1 Mount Cheam                                         ABLA      
+          99  can497    1658  1999   342 Years  99H4   1 Mount Cheam                                         TSME      
+         100  can498    1776  1999   224 Years  00B    1 Oval Glacier                                        TSME      
+         101  can529    1580  2010   431 Years  VIC    1 Vicary Mine                                         PIAL      
+         102  can558    1926  2017    92 Years  GLR    1 George LaRoi Forest Plot                            BEPA      
+         103  can559    1926  2017    92 Years  GLR    1 George LaRoi Forest Plot                            PCGL      
+         104  can560    1927  2017    91 Years  GLR    1 George LaRoi Forest Plot                            PIBN      
+         105  can561    1931  2017    87 Years  GLR    1 George LaRoi Forest Plot                            PPTR      
+         106  can570    1377  2004   628 Years  CAB    1 Cabin Creek                                         PSME      
+         107  can571    1613  2004   392 Years  CAL    1 Callum Creek                                        PSME      
+         108  can574    1458  2004   547 Years  ELK    1 Emerald Lake - Crowsnest Pass 2                     PIFL      
+         109  can577    1204  2004   801 Years  OLDMPF 1 Old Man River Whalebacks                            PIFL      
+         110  can584    1552  2004   453 Years  WSC    1 West Sharples Creek 2                               PSME      
+         111  Grouse    1600  2018   419 Years  5903e211 Grouse Ridge, Mt Baker, Washington                         TSM
+         112  id013.    1305  1997   693 Years  SDR    1 Sleeping Deer Road Ring Width                       PCEN      
+         113  id015.    1488  2011   524 Years  EST    1 East Side Trail                                     PIPO      
+         114  id016.    1653  2009   357 Years  WCR    1 Wellner Cliffs Research Natural Area                PIPO      
+         115  id017.    1673  2009   337 Years  WCD    1 Wellner Cliffs Research Natural Area                PSME      
+         116  id018.    1589  2013   425 Years  KNC    1 Kennally Creek                                      PIPO      
+         117  id019.    1603  2013   411 Years  SCR    1 Clearwater River                                    PIPO      
+         118  mt106.    1980  1983     4 Years                                                                         
+         119  mt109.    1660  1999   340 Years  GRM    1 Grass Mountain #2                                   PCEN      
+         120  mt110.     819  2000  1182 Years  NFR    1 North Fork Ridge                                    PSME      
+         121  mt111.     500  2000  1501 Years  NFR    1 North Fork Ridge                                    PIFL      
+         122  mt112.     470  1998  1529 Years  YMR1   1 Yellow Mountain Ridge 1                             PIFL      
+         123  mt113.     470  1998  1529 Years  YMR1   1 Yellow Mountain Ridge 1 - Entire Bark Trees         PIFL      
+         124  mt114.     952  1998  1047 Years  YMR2   1 Yellow Mountain Ridge 2                             PSME      
+         125  mt115.      12  1997  1986 Years  BAK    1 Baker Lake                                          LALY      
+         126  mt116.     999  1998  1000 Years  FRL    1 Flint Creek Range                                   LALY      
+         127  mt117.    1850  2006   157 Years  PP     1 Preston Park                                        ABLA      
+         128  mt118.    1455  2003   549 Years  BMP    1 Bear Mountain Point                                 PSME      
+         129  mt119.    1570  2005   436 Years  01B    1 Pintlers                                            LALY      
+         130  mt120.    1450  2006   557 Years  01B    1 Pintlers 2                                          LALY      
+         131  mt122.    1163  2002   840 Years  SMW    1 Spot Mountain West                                  PSME      
+         132  mt123.    1564  2001   438 Years  TML    1 Two Medicine Lake                                   PSME      
+         133  mt124.    1509  2001   493 Years  2TRV   1 Teton River Valley                                  PSME      
+         134  mt125.    1602  2009   408 Years  USC    1 Upper Smith Creek                                   PSME      
+         135  mt127.    -413  2008  2422 Years  CGA    1 Chinese Garden                                      JUSC      
+         136  mt128.    1602  2006   405 Years  RCP    1 Rock Creek West                                     PIPO      
+         137  mt129.    1690  2006   317 Years  FLD    1 Ferry Landing Research Natural Area                 PSME      
+         138  mt130.    1307  2008   702 Years  BCD    1 Boulder Creek                                       PSME      
+         139  mt131.    1665  2008   344 Years  RKD    1 Rock Creek East                                     PSME      
+         140  mt132.    1611  2006   396 Years  FCD    1 Fish Creek                                          PSME      
+         141  mt133.    1674  2009   336 Years  CGD    1 Cabin Gulch Research Natural Area                   PSME      
+         142  mt134.    1799  2009   211 Years  PGD    1 Paine Gulch                                         PSME      
+         143  mt135.    1793  2009   217 Years  PGR    1 Paine Gulch                                         PIPO      
+         144  mt153.    -413  2008  2422 Years  CGA    1 Chinese Garden 2016 Expanded                        JUSC      
+         145  mt160.    1558  2013   456 Years  HLAU   1 Helena Update                                       PSME      
+         146  mt175.     783  2000  1218 Years  TETONF 1 Teton River Valley                                  PIFL      
+         147  or046.    1529  1995   467 Years  LML    1 Lookout Mountain Lower                              PIPO      
+         148  or050.    1747  1995   249 Years  SVF    1 Surveyor Flow                                       PIPO      
+         149  or051.    1574  1995   422 Years  DES    1 Deschutes                                           PIPO      
+         150  or052.    1419  1995   577 Years  JCT    1 Junction of HWYS 51 and 97                          PIPO      
+         151  or053.    1639  1995   357 Years  SKB    1 Skookum Butte                                       PIPO      
+         152  or054.    1513  1995   483 Years  DLK    1 Diamond Lake                                        PIPO      
+         153  or055.    1423  1995   573 Years  BJS    1 Blue Jay Spring                                     PIPO      
+         154  or056.    1570  1995   426 Years  TLD    1 Telephone Draw                                      PIPO      
+         155  or057.    1442  1995   554 Years  TDS    1 Telephone Draw South                                PIPO      
+         156  or059.    1653  1995   343 Years  CAB    1 Calimus Butte                                       PIPO      
+         157  or060.     870  1996  1127 Years  FRB    1 FREDERICK BUTTE                                     JUOC      
+         158  or061.     830  1996  1167 Years  HRGWT1 1 HORSE RIDGE                                         JUOC      
+         159  or062.     530  1996  1467 Years  TRJWT1 1 TABLE ROCK/ARROW GAP                                JUOC      
+         160  or063.    1017  1998   982 Years  STESTD 1 STEENS MOUNTAIN OCT1998                             JUOC      
+         161  or067.    1714  1993   280 Years  HLMJ   1 Mount Jefferson Low                                 TSME      
+         162  or083.    1892  2002   111 Years  GH2    1 Greenhorn Mountains                                 PICO      
+         163  or085.    1602  1999   398 Years  MCN    1 Mill Creek Research Natural Area                    PIPO      
+         164  or090.    1455  2379   925 Years  LCF    1 Newberry Volcanic NM Lava Cast Forest               PIPO      
+         165  or091.    1180  2008   829 Years  SL     1 Strawberry Lake                                     LAOC      
+         166  or092.     530  2010  1481 Years  AGU    1 Table Rock - Arrow Gap Update                       JUOC      
+         167  or093.     870  2010  1141 Years  FBK    1 Frederick Butte Update                              JUOC      
+         168  or094.     830  2010  1181 Years  HRK    1 Horse Ridge Update                                  JUOC      
+         169  or095.    1337  2010   674 Years  LJK    1 Little Juniper Mountain Update                      JUOC      
+         170  or096.    1838  2013   176 Years  ST     1 Santiam Pass SNOTEL                                 PSME      
+         171  or097.    1837  2013   177 Years  MT     1 McKenzie Pass SNOTEL                                TSME      
+         172  or098.    1600  2012   413 Years  CTR    1 Castle Rock                                         TSME      
+         173  or099.    1620  2012   393 Years  LLR    1 Llao Rock                                           TSME      
+         174  or100.    1500  2012   513 Years  LTS    1 Lightning Springs                                   TSME      
+         175  or101.    1650  2012   363 Years  MTS    1 Mount Scott                                         TSME      
+         176  or102.    1600  2012   413 Years  PMP    1 Pumice                                              TSME      
+         177  or103.    1690  2012   323 Years  PNC    1 Pinnacle                                            TSME      
+         178  or104.    1690  2012   323 Years  PSD    1 Palisade                                            TSME      
+         179  wa134.    1650  2006   357 Years  bkr    1 Heather Meadows, Mt Baker Ski Area                  TSME      
+         180  wa135.    1450  2005   556 Years  OLL    1 NCAS      (Formerly MT121)                          LALY      
+         181  wa136.    1389  2013   625 Years  BCR    1 Bear Creek Ridge                                    PIPO      
+         182  wa137.    1626  2011   386 Years  BRG    1 Burge Mountain                                      PIPO      
+         183  wa138.    1541  2012   472 Years  FOD    1 Foggy Dew                                           PIPO      
+         184  wa139.    1600  2012   413 Years  RRR    1 Rattlesnake Ridge Road                              PIPO      
+         185  wa140.    1508  2013   506 Years  SND    1 Sneed Mountain                                      PIPO      
+         186  wa141.    1621  2012   392 Years  SUG    1 Sugarloaf Lake                                      PIPO      
+         187  wa142.    1464  2012   549 Years  TMR    1 Tronson Meadow Ridge                                PIPO      
+         188  wa143.    1750  2011   262 Years  MB     1 Bagley Lakes    Mt. Baker-Snoqualmie NF             TSME      
+         189  wa144.    1830  2011   182 Years  EP     1 Easy Pass   North Cascades National Park            TSME      
+         190  wa145.    1690  2011   322 Years  HL     1 Hidden Lake   North Cascades National Park          TSME      
+         191  wa146.    1800  2011   212 Years  ML     1 Minotaur Lake   Okanogan-Wenatchee National Forest  TSME      
+         192  wa147.    1930  2011    82 Years  SCG    1 South Cascade Glacier   Mt. Baker-Snoqualmie NF     TSME      
+         193  wa148.    1746  2011   266 Years  TL     1 Thornton Lakes   North Cascades National Park       TSME      
+         194  wa149.    1650  2011   362 Years  WKB    1 Kellett Bluff                                       PSME      
+         195  wy026.    1480  1998   519 Years  fbn000 1 FOSSIL BUTTE NATIONAL MONUMENT                      PIFL      
+         196  wy027.    1168  1999   832 Years  MEV    1 Mt. Everts includes Ferguson's Gardner collection   PSME      
+         197  wy028.    1459  2000   542 Years  WSK    1 Whiskey Mountain                                    PSME      
+         198  wy029.    1484  1999   516 Years  CFY    1 Clarks Fork of the Yellowstone                      PSME      
+         199  wy030.    1097  1999   903 Years  SHP    1 Sheep Trail                                         PCEN      
+         200  wy031.    1380  2001   622 Years  enc5   1 Encampment                                          PSME      
+         201  wy032.    1511  2001   491 Years  VED    1 Vedauwoo                                            PIPO      
+         202  wy033.    1280  2005   726 Years  HSB    1 Hot Springs Basin                                   PIAL      
+         203  wy035.    1900  2008   109 Years  UCH    1 Cooking Hillside                                    PICO      
+         204  wy036.    1734  2009   276 Years  KV     1 Kretec Vale                                         PICO      
+         205  wy038.     870  1998  1129 Years  mdp    1 McDougal Pass                                       PIFL      
+         206  wy039.    1500  2007   508 Years  CFY    1 Clarks Fork Yellowstone NW                          PSME      
+         207  wy040.    1194  2000   807 Years  DIN    1 Dead Indian Hill update                             PSME      
+         208  wy041.    1017  2007   991 Years  LLR    1 Louis Lake Road                                     PIFL      
+         209  wy042.    1200  2006   807 Years  ARE    1 Anderson Ridge East                                 PIFL      
+         210  wy043.    1576  2006   431 Years  BLE    1 Boulder Lake                                        PSME      
+         211  wy045.    1507  2006   500 Years  FME    1 Fremont Lake                                        PSME      
+         212  wy046.    1730  2012   283 Years  BLA    1 Parker Peak                                         PCEN      
+         213  wy047.    1758  2010   253 Years  FBR    1 Fishing Bridge                                      PICO      
+         214  wy048.    1680  2010   331 Years  CBR    1 Chittenden Bridge                                   PICO      
+         215  wy049.     471  1998  1528 Years  MHS    1 Mammoth Hot Springs                                 PIFL      
+         216  wy050.     937  1998  1062 Years  WSH    1 Mount Washburn                                      PIAL      
+         217  wy051.    1597  2009   413 Years  NUP    1 Norris Upland                                       PICO      
+         218  wy052.    1076  2007   932 Years  FCN    1 Fish Creek North                                    PSME      
+         219  wy053.    1228  2006   779 Years  GVR    1 Gros Ventre Road                                    PIFL      
+         220  wy054.    1074  2006   933 Years  HRI    1 Hoback Ridge                                        PIFL      
+         221  wy055.    1584  2006   423 Years  HRI    1 Hoback Ridge                                        PSME      
+         222  wy056.    1495  2006   512 Years  MMT    1 Munger Mountain                                     PIFL      
+
+         Tree-ring series retained for modeling:
+
+             1   29  1900  2004   can308   G06    1 Grays Creek Pass Recollection                       LALY      
+             2   30  1900  2004   can327   DEA    1 Douglas Fir Ecological Area                         PSME      
+             3   31  1900  2004   can328   SFR    1 Siffleur Ridge                                      PIFL      
+             4   32  1900  2004   can329   SKC    1 Saskatchewan Crossing                               PIFL      
+             5   33  1900  2004   can330   WPP    1 Whirlpool Point                                     PIFL      
+             6   34  1900  2004   can331   WRC    1 Whiterabbit Creek                                   PSME      
+             7   35  1900  2004   can332   BDC    1 Beaver Dam Creek - Whalebacks                       PSME      
+             8   36  1900  2004   can333   CBCR   1 Cabin Creek - Porcupine Hills                       PSME      
+             9   37  1900  2004   can334   CaC    1 Callum Creek - Whalebacks                           PSME      
+            10   38  1900  2004   can335   EL     1 Emerald Lake - Crowsnest Pass                       PIFL      
+            11   39  1900  2004   can336   OMR    1 Old Man River - Whaleback Ridge                     PSME      
+            12   40  1900  2004   can343   DC     1 Dutch Creek                                         PSME      
+            13   41  1900  2004   can344   FLK    1 Fighting Lake                                       PIBN      
+            14   43  1900  2004   can348   SR     1 Swan Hills - Swan River                             PCGL      
+            15   44  1900  2004   can349   SH     1 Swan Hills - Swan River                             PIBN      
+            16   45  1900  2004   can350   TWO    1 Two O'Clock Creek                                   PSME      
+            17   60  1900  2004   can424   W      1 Whitewater Ski Hill                                 LALY      
+            18   61  1900  2004   can426   JB8    1 Jasper Benchlands                                   PSME      
+            19   62  1900  2004   can427   JY8    1 Pyramid Lake Fire Road                              PSME      
+            20   63  1900  2004   can428   A7K    1 Katrine                                             PSME      
+            21   64  1900  2004   can429   A7M    1 Upper Mina                                          PSME      
+            22   71  1900  2004   can464   HUSAF  1 Hurley Road                                         ABLA      
+            23   74  1900  2004   can467   FGMH   1 Franklin Glacier                                    TSME      
+            24   75  1900  2004   can468   JLMH   1 Joffre Lakes                                        TSME      
+            25   76  1900  2004   can469   10MG   1 M. Gurr Lake                                        TSME      
+            26   78  1900  2004   can471   97N    1 Mount Cain                                          TSME      
+            27   82  1900  2004   can476   10NUS  1 Nusatsum Pass                                       TSME      
+            28   88  1900  2004   can485   10JCB  1 Jacobsen Glacier                                    ABLA      
+            29   92  1900  2004   can490   10BJ   1 Blue Jay Lake                                       TSME      
+            30   97  1900  2004   can495   06MG   1 Manatee Glacier                                     ABLA      
+            31  101  1900  2004   can529   VIC    1 Vicary Mine                                         PIAL      
+            32  106  1900  2004   can570   CAB    1 Cabin Creek                                         PSME      
+            33  107  1900  2004   can571   CAL    1 Callum Creek                                        PSME      
+            34  108  1900  2004   can574   ELK    1 Emerald Lake - Crowsnest Pass 2                     PIFL      
+            35  109  1900  2004   can577   OLDMPF 1 Old Man River Whalebacks                            PIFL      
+            36  110  1900  2004   can584   WSC    1 West Sharples Creek 2                               PSME      
+            37  111  1900  2004   Grouse   5903e211 Grouse Ridge, Mt Baker, Washington                         TSM
+            38  113  1900  2004   id015.   EST    1 East Side Trail                                     PIPO      
+            39  114  1900  2004   id016.   WCR    1 Wellner Cliffs Research Natural Area                PIPO      
+            40  115  1900  2004   id017.   WCD    1 Wellner Cliffs Research Natural Area                PSME      
+            41  116  1900  2004   id018.   KNC    1 Kennally Creek                                      PIPO      
+            42  117  1900  2004   id019.   SCR    1 Clearwater River                                    PIPO      
+            43  127  1900  2004   mt117.   PP     1 Preston Park                                        ABLA      
+            44  129  1900  2004   mt119.   01B    1 Pintlers                                            LALY      
+            45  130  1900  2004   mt120.   01B    1 Pintlers 2                                          LALY      
+            46  134  1900  2004   mt125.   USC    1 Upper Smith Creek                                   PSME      
+            47  135  1900  2004   mt127.   CGA    1 Chinese Garden                                      JUSC      
+            48  136  1900  2004   mt128.   RCP    1 Rock Creek West                                     PIPO      
+            49  137  1900  2004   mt129.   FLD    1 Ferry Landing Research Natural Area                 PSME      
+            50  138  1900  2004   mt130.   BCD    1 Boulder Creek                                       PSME      
+            51  139  1900  2004   mt131.   RKD    1 Rock Creek East                                     PSME      
+            52  140  1900  2004   mt132.   FCD    1 Fish Creek                                          PSME      
+            53  141  1900  2004   mt133.   CGD    1 Cabin Gulch Research Natural Area                   PSME      
+            54  142  1900  2004   mt134.   PGD    1 Paine Gulch                                         PSME      
+            55  143  1900  2004   mt135.   PGR    1 Paine Gulch                                         PIPO      
+            56  144  1900  2004   mt153.   CGA    1 Chinese Garden 2016 Expanded                        JUSC      
+            57  145  1900  2004   mt160.   HLAU   1 Helena Update                                       PSME      
+            58  164  1900  2004   or090.   LCF    1 Newberry Volcanic NM Lava Cast Forest               PIPO      
+            59  165  1900  2004   or091.   SL     1 Strawberry Lake                                     LAOC      
+            60  166  1900  2004   or092.   AGU    1 Table Rock - Arrow Gap Update                       JUOC      
+            61  167  1900  2004   or093.   FBK    1 Frederick Butte Update                              JUOC      
+            62  168  1900  2004   or094.   HRK    1 Horse Ridge Update                                  JUOC      
+            63  169  1900  2004   or095.   LJK    1 Little Juniper Mountain Update                      JUOC      
+            64  170  1900  2004   or096.   ST     1 Santiam Pass SNOTEL                                 PSME      
+            65  171  1900  2004   or097.   MT     1 McKenzie Pass SNOTEL                                TSME      
+            66  172  1900  2004   or098.   CTR    1 Castle Rock                                         TSME      
+            67  173  1900  2004   or099.   LLR    1 Llao Rock                                           TSME      
+            68  174  1900  2004   or100.   LTS    1 Lightning Springs                                   TSME      
+            69  175  1900  2004   or101.   MTS    1 Mount Scott                                         TSME      
+            70  176  1900  2004   or102.   PMP    1 Pumice                                              TSME      
+            71  177  1900  2004   or103.   PNC    1 Pinnacle                                            TSME      
+            72  178  1900  2004   or104.   PSD    1 Palisade                                            TSME      
+            73  179  1900  2004   wa134.   bkr    1 Heather Meadows, Mt Baker Ski Area                  TSME      
+            74  180  1900  2004   wa135.   OLL    1 NCAS      (Formerly MT121)                          LALY      
+            75  181  1900  2004   wa136.   BCR    1 Bear Creek Ridge                                    PIPO      
+            76  182  1900  2004   wa137.   BRG    1 Burge Mountain                                      PIPO      
+            77  183  1900  2004   wa138.   FOD    1 Foggy Dew                                           PIPO      
+            78  184  1900  2004   wa139.   RRR    1 Rattlesnake Ridge Road                              PIPO      
+            79  185  1900  2004   wa140.   SND    1 Sneed Mountain                                      PIPO      
+            80  186  1900  2004   wa141.   SUG    1 Sugarloaf Lake                                      PIPO      
+            81  187  1900  2004   wa142.   TMR    1 Tronson Meadow Ridge                                PIPO      
+            82  188  1900  2004   wa143.   MB     1 Bagley Lakes    Mt. Baker-Snoqualmie NF             TSME      
+            83  189  1900  2004   wa144.   EP     1 Easy Pass   North Cascades National Park            TSME      
+            84  190  1900  2004   wa145.   HL     1 Hidden Lake   North Cascades National Park          TSME      
+            85  191  1900  2004   wa146.   ML     1 Minotaur Lake   Okanogan-Wenatchee National Forest  TSME      
+            86  193  1900  2004   wa148.   TL     1 Thornton Lakes   North Cascades National Park       TSME      
+            87  194  1900  2004   wa149.   WKB    1 Kellett Bluff                                       PSME      
+            88  202  1900  2004   wy033.   HSB    1 Hot Springs Basin                                   PIAL      
+            89  203  1900  2004   wy035.   UCH    1 Cooking Hillside                                    PICO      
+            90  204  1900  2004   wy036.   KV     1 Kretec Vale                                         PICO      
+            91  206  1900  2004   wy039.   CFY    1 Clarks Fork Yellowstone NW                          PSME      
+            92  208  1900  2004   wy041.   LLR    1 Louis Lake Road                                     PIFL      
+            93  209  1900  2004   wy042.   ARE    1 Anderson Ridge East                                 PIFL      
+            94  210  1900  2004   wy043.   BLE    1 Boulder Lake                                        PSME      
+            95  211  1900  2004   wy045.   FME    1 Fremont Lake                                        PSME      
+            96  212  1900  2004   wy046.   BLA    1 Parker Peak                                         PCEN      
+            97  213  1900  2004   wy047.   FBR    1 Fishing Bridge                                      PICO      
+            98  214  1900  2004   wy048.   CBR    1 Chittenden Bridge                                   PICO      
+            99  217  1900  2004   wy051.   NUP    1 Norris Upland                                       PICO      
+           100  218  1900  2004   wy052.   FCN    1 Fish Creek North                                    PSME      
+           101  219  1900  2004   wy053.   GVR    1 Gros Ventre Road                                    PIFL      
+           102  220  1900  2004   wy054.   HRI    1 Hoback Ridge                                        PIFL      
+           103  221  1900  2004   wy055.   HRI    1 Hoback Ridge                                        PSME      
+           104  222  1900  2004   wy056.   MMT    1 Munger Mountain                                     PIFL      
+
+         Tree-ring data type:               ring indices
+         Data format:                       tucson trl
+         Common first year:                 1900
+         Common last year:                  2004
+         Number of years:                    105
+         Number of series:                   104
+
+         Autoregressive modeling of predictors:
+
+         Time period used to estimate autoregression: 1900 - 2004
+
+         Series   Order   RSQ     AIC    Autoregressive Coeffs: Order AR(1)-AR(ip)
+            1       2   0.305  -254.00   0.347  0.293
+            2       1   0.158  -245.07   0.397
+            3       2   0.300  -264.54   0.375  0.253
+            4       2   0.234  -360.51   0.400  0.142
+            5       2   0.208  -234.48   0.223  0.330
+            6       1   0.048  -231.36   0.220
+            7       1   0.124  -257.04   0.351
+            8       1   0.167  -208.12   0.409
+            9       1   0.365  -296.41   0.604
+           10       2   0.491  -379.74   0.310  0.472
+           11       2   0.310  -251.66   0.463  0.147
+           12       2   0.384  -258.60   0.400  0.297
+           13       1   0.156  -418.83   0.395
+           14       1   0.370  -427.46   0.608
+           15       2   0.546  -419.17   0.573  0.209
+           16       2   0.158  -227.58   0.281  0.200
+           17       2   0.376  -287.32   0.499  0.166
+           18       3   0.125  -249.34   0.268  0.188 -0.153
+           19       1   0.119  -292.92   0.345
+           20       1   0.038  -295.24   0.194
+           21       1   0.114  -286.83   0.337
+           22       2   0.209  -385.46   0.308  0.236
+           23       2   0.216  -357.00   0.261  0.299
+           24       2   0.178  -407.91   0.212  0.305
+           25       3   0.234  -340.54   0.177  0.271  0.186
+           26       3   0.285  -324.38   0.329  0.116  0.221
+           27       2   0.622  -390.98   0.419  0.429
+           28       4   0.406  -458.76   0.139  0.266  0.228  0.171
+           29       2   0.772  -397.39   0.526  0.385
+           30       2   0.061  -391.67  -0.207 -0.176
+           31       5   0.267  -453.98   0.037  0.060  0.244  0.245  0.163
+           32       1   0.183  -213.84   0.428
+           33       1   0.348  -297.41   0.590
+           34       2   0.408  -344.82   0.321  0.406
+           35       2   0.245  -240.71   0.397  0.162
+           36       1   0.337  -249.28   0.581
+           37       2   0.116  -409.67   0.229  0.195
+           38       1   0.412  -341.58   0.642
+           39       2   0.709  -371.11   0.719  0.142
+           40       1   0.750  -363.72   0.866
+           41       3   0.537  -342.71   0.523  0.019  0.276
+           42       1   0.526  -347.65   0.725
+           43       0   0.000  -409.08
+           44       2   0.261  -324.33   0.228  0.380
+           45       2   0.114  -297.90   0.138  0.283
+           46       2   0.400  -331.35   0.470  0.225
+           47       2   0.067  -270.82   0.173  0.159
+           48       3   0.500  -322.24   0.436  0.207  0.155
+           49       2   0.450  -339.37   0.366  0.385
+           50       2   0.464  -420.58   0.523  0.211
+           51       3   0.298  -310.38   0.339  0.185  0.143
+           52       3   0.451  -385.19   0.207  0.364  0.225
+           53       1   0.290  -259.63   0.538
+           54       1   0.491  -357.27   0.701
+           55       1   0.123  -358.69   0.351
+           56       1   0.069  -313.74   0.262
+           57       2   0.203  -225.44   0.360  0.158
+           58       2   0.416  -410.97   0.461  0.250
+           59       2   0.210  -394.76   0.505 -0.199
+           60       2   0.223  -195.46   0.183  0.385
+           61       2   0.092  -209.89   0.111  0.266
+           62       2   0.197  -190.64   0.212  0.328
+           63       2   0.168  -251.20   0.176  0.327
+           64       2   0.358  -440.71   0.451  0.213
+           65       2   0.120  -440.97   0.058 -0.345
+           66       0   0.000  -372.30
+           67       0   0.000  -318.24
+           68       0   0.000  -331.83
+           69       0   0.000  -320.91
+           70       1   0.061  -353.48   0.248
+           71       0   0.000  -326.11
+           72       1   0.094  -394.76   0.307
+           73       3   0.438  -376.01   0.406  0.143  0.221
+           74       1   0.164  -333.69   0.405
+           75       1   0.023  -399.54   0.153
+           76       1   0.346  -327.08   0.588
+           77       2   0.407  -367.19   0.433  0.276
+           78       2   0.485  -330.97   0.503  0.250
+           79       2   0.387  -336.92   0.516  0.154
+           80       2   0.565  -301.06   0.599  0.191
+           81       2   0.261  -363.17   0.338  0.259
+           82       1   0.062  -391.06   0.249
+           83       2   0.390  -383.98   0.340  0.371
+           84       2   0.596  -395.74   0.403  0.431
+           85       1   0.068  -384.01   0.260
+           86       1   0.129  -417.25   0.359
+           87       3   0.207  -314.40   0.333  0.236 -0.284
+           88       1   0.578  -472.50   0.760
+           89       1   0.093  -444.13   0.305
+           90       4   0.660  -450.24   0.916 -0.109 -0.003 -0.167
+           91       1   0.156  -354.22   0.395
+           92       2   0.240  -357.76   0.402  0.148
+           93       2   0.228  -361.37   0.342  0.216
+           94       1   0.349  -279.90   0.591
+           95       1   0.432  -319.43   0.657
+           96       1   0.063  -393.07   0.250
+           97       1   0.200  -473.82   0.447
+           98       1   0.151  -418.14   0.389
+           99       2   0.348  -413.81   0.393  0.276
+          100       2   0.287  -398.63   0.392  0.217
+          101       2   0.197  -286.26   0.267  0.270
+          102       2   0.268  -281.28   0.297  0.314
+          103       2   0.412  -288.24   0.449  0.261
+          104       2   0.120  -305.89   0.187  0.249
+
+         The predictand data file:          high_elev_r_avg.prn                     
+         No climate coordinates read in:              0
+         Climate coordinates format:                  None
+
+         Number of climate datasets:        1
+         Same format & climate mask:        y
+         Climate format option:             5
+         User defined format:               (i8,12f8.0)         
+         Climate mask:                                                                                                                                                                                                                                                                                               
+         JFMAMJJASONDJFMAMJJASONDJFMAMJJASONDJFMAMJJASONDJFMAMJJASOND                                                                                                                                                                                                                                                
+         00000113000                                                 
+
+         DATA TITLE:
+                 January FebruaryMarch   April   May     June    July    August  SeptembeOctober NovemberDecember                                                                                                                                                                                                    
+
+         Common first year:              1970
+         Common last year:               2004
+         Number of datasets retained:       1
+
+         Autoregressive modeling of predictands:
+
+         Time period used to estimate autoregression: 1970 - 2004
+
+         Series   Order   RSQ     AIC    Autoregressive Coeffs: Order AR(1)-AR(ip)
+            1       1   0.177   -31.25   0.421
+
+
+         Predictor-Predictand common period: 1970 - 2004     35 years
+
+         For the calibration period:
+              First year:                   1970
+              Last year:                    2001
+              Total years:                    32
+
+         Point-by-Point Regression option chosen
+
+         Criteria for screening predictors:
+
+         Probability level for screening correlations:    0.1000
+         Number of tails for testing correlations:         1
+         Sign of selected tail:                            +
+         Eigenvector selection criterion:                  Eigenvalue-1
+         Regression model selection criterion:             minimum AIC
+
+
+         Predictand     1
+
+         Predictor    1 pass:  r = 0.336*  t =  1.95  pct = 0.029  can308   G06    1 Gray
+         Predictor   17 pass:  r = 0.307*  t =  1.77  pct = 0.042  can424   W      1 Whit
+         Predictor   22 pass:  r = 0.310*  t =  1.78  pct = 0.041  can464   HUSAF  1 Hurl
+         Predictor   24 pass:  r = 0.244*  t =  1.38  pct = 0.088  can468   JLMH   1 Joff
+         Predictor   25 pass:  r = 0.418*  t =  2.52  pct = 0.008  can469   10MG   1 M. G
+         Predictor   26 pass:  r = 0.504*  t =  3.20  pct = 0.002  can471   97N    1 Moun
+         Predictor   27 pass:  r = 0.330*  t =  1.91  pct = 0.031  can476   10NUS  1 Nusa
+         Predictor   28 pass:  r = 0.358*  t =  2.10  pct = 0.021  can485   10JCB  1 Jaco
+         Predictor   29 pass:  r = 0.349*  t =  2.04  pct = 0.024  can490   10BJ   1 Blue
+         Predictor   37 pass:  r = 0.483*  t =  3.02  pct = 0.003  Grouse   5903e211 Grou
+         Predictor   43 pass:  r = 0.509*  t =  3.24  pct = 0.001  mt117.   PP     1 Pres
+         Predictor   44 pass:  r = 0.303*  t =  1.74  pct = 0.044  mt119.   01B    1 Pint
+         Predictor   59 pass:  r = 0.329*  t =  1.91  pct = 0.031  or091.   SL     1 Stra
+         Predictor   65 pass:  r = 0.363*  t =  2.13  pct = 0.020  or097.   MT     1 McKe
+         Predictor   66 pass:  r = 0.457*  t =  2.82  pct = 0.004  or098.   CTR    1 Cast
+         Predictor   67 pass:  r = 0.533*  t =  3.45  pct = 0.001  or099.   LLR    1 Llao
+         Predictor   68 pass:  r = 0.573*  t =  3.83  pct = 0.000  or100.   LTS    1 Ligh
+         Predictor   69 pass:  r = 0.479*  t =  2.99  pct = 0.003  or101.   MTS    1 Moun
+         Predictor   70 pass:  r = 0.521*  t =  3.34  pct = 0.001  or102.   PMP    1 Pumi
+         Predictor   71 pass:  r = 0.531*  t =  3.43  pct = 0.001  or103.   PNC    1 Pinn
+         Predictor   72 pass:  r = 0.408*  t =  2.45  pct = 0.010  or104.   PSD    1 Pali
+         Predictor   73 pass:  r = 0.484*  t =  3.03  pct = 0.003  wa134.   bkr    1 Heat
+         Predictor   74 pass:  r = 0.297*  t =  1.70  pct = 0.048  wa135.   OLL    1 NCAS
+         Predictor   82 pass:  r = 0.313*  t =  1.81  pct = 0.039  wa143.   MB     1 Bagl
+         Predictor   83 pass:  r = 0.342*  t =  2.00  pct = 0.026  wa144.   EP     1 Easy
+         Predictor   84 pass:  r = 0.563*  t =  3.73  pct = 0.000  wa145.   HL     1 Hidd
+         Predictor   85 pass:  r = 0.364*  t =  2.14  pct = 0.019  wa146.   ML     1 Mino
+         Predictor   86 pass:  r = 0.443*  t =  2.70  pct = 0.005  wa148.   TL     1 Thor
+         Predictor   96 pass:  r = 0.367*  t =  2.16  pct = 0.018  wy046.   BLA    1 Park
+
+           29 Predictors passed for predictand     1
+
+                       Principal Component Analysis Of Predictors
+
+         Component   Orig Lamda   Res Lamda   % Variance   Cumulative %   Cum Product
+
+              1        14.938      14.938        51.510        51.510         14.938
+              2         2.973       2.973        10.251        61.762         44.409
+              3         1.787       1.787         6.163        67.924         79.368
+              4         1.620       1.620         5.587        73.511        128.590
+              5         1.306       1.306         4.502        78.013        167.892
+              6         1.164       1.164         4.014        82.028        195.458
+              7         0.867       0.867         2.989        85.017        169.430
+              8         0.727       0.727         2.507        87.524        123.196
+              9         0.574       0.574         1.979        89.503         70.688
+             10         0.510       0.510         1.760        91.263         36.080
+             11         0.446       0.446         1.537        92.800         16.080
+             12         0.382       0.382         1.317        94.116          6.141
+             13         0.362       0.362         1.250        95.366          2.226
+             14         0.288       0.288         0.992        96.358          0.640
+             15         0.265       0.265         0.915        97.273          0.170
+             16         0.198       0.198         0.683        97.956          0.034
+             17         0.139       0.139         0.479        98.435          0.005
+             18         0.120       0.120         0.415        98.850          0.001
+             19         0.100       0.100         0.344        99.194          0.000
+             20         0.072       0.072         0.247        99.441          0.000
+             21         0.051       0.051         0.176        99.617          0.000
+             22         0.035       0.035         0.121        99.738          0.000
+             23         0.029       0.029         0.101        99.839          0.000
+             24         0.020       0.020         0.068        99.907          0.000
+             25         0.014       0.014         0.047        99.955          0.000
+             26         0.009       0.009         0.032        99.987          0.000
+             27         0.002       0.002         0.009        99.996          0.000
+             28         0.001       0.001         0.003        99.999          0.000
+             29         0.000       0.000         0.001       100.000          0.000
+1
+                                  Regression Model Results
+
+         Step  Eigen  Corr  t-stat   Prob   RSQ  Cum RSQ  Adj RSQ  Adj RE    AIC
+
+           1     1  -0.570  -3.799*0.0007*0.325   0.325   0.302*   0.281    -8.15*
+           2     4  -0.207  -1.160 0.2542 0.043   0.368   0.324*   0.283    -7.81 
+           3     5  -0.137  -0.760 0.5409 0.019   0.387   0.321    0.259    -6.16 
+           4     2   0.123   0.676 0.5110 0.015   0.402   0.313    0.230    -4.12 
+           5     6  -0.065  -0.355 0.7252 0.004   0.406   0.291    0.184    -1.30 
+           6     3  -0.054  -0.295 0.7668 0.003   0.409   0.267    0.133     1.85 
+
+         Best order model using minimum AIC criterion:  1
+         Percent variance explained:  32.48 %
+         Full model f-ratio:   14.43   prob: .00075     1 and   30 df
+
+         Regression Coefficients In Terms Of Original Screened Predictors
+
+         Number     Variable     Beta     Std Err   Predictor series used
+            1           1      0.0163*    0.0005    can308   G06    1 Gray
+            2          17      0.0127*    0.0003    can424   W      1 Whit
+            3          22      0.0274*    0.0013    can464   HUSAF  1 Hurl
+            4          24      0.0279*    0.0014    can468   JLMH   1 Joff
+            5          25      0.0285*    0.0014    can469   10MG   1 M. G
+            6          26      0.0267*    0.0013    can471   97N    1 Moun
+            7          27      0.0243*    0.0011    can476   10NUS  1 Nusa
+            8          28      0.0290*    0.0015    can485   10JCB  1 Jaco
+            9          29      0.0205*    0.0007    can490   10BJ   1 Blue
+           10          37      0.0315*    0.0018    Grouse   5903e211 Grou
+           11          43      0.0289*    0.0015    mt117.   PP     1 Pres
+           12          44      0.0156*    0.0004    mt119.   01B    1 Pint
+           13          59      0.0198*    0.0007    or091.   SL     1 Stra
+           14          65      0.0252*    0.0011    or097.   MT     1 McKe
+           15          66      0.0312*    0.0017    or098.   CTR    1 Cast
+           16          67      0.0329*    0.0019    or099.   LLR    1 Llao
+           17          68      0.0336*    0.0020    or100.   LTS    1 Ligh
+           18          69      0.0289*    0.0015    or101.   MTS    1 Moun
+           19          70      0.0329*    0.0019    or102.   PMP    1 Pumi
+           20          71      0.0303*    0.0016    or103.   PNC    1 Pinn
+           21          72      0.0286*    0.0015    or104.   PSD    1 Pali
+           22          73      0.0333*    0.0020    wa134.   bkr    1 Heat
+           23          74      0.0208*    0.0008    wa135.   OLL    1 NCAS
+           24          82      0.0295*    0.0015    wa143.   MB     1 Bagl
+           25          83      0.0275*    0.0014    wa144.   EP     1 Easy
+           26          84      0.0331*    0.0020    wa145.   HL     1 Hidd
+           27          85      0.0322*    0.0019    wa146.   ML     1 Mino
+           28          86      0.0335*    0.0020    wa148.   TL     1 Thor
+           29          96      0.0088*    0.0001    wy046.   BLA    1 Park
+
+
+                  Regression Estimates
+
+         Year    Actual    Estimate    Residual
+
+         1970     0.289      0.034       0.255
+         1971    -0.806     -0.500      -0.307
+         1972    -0.464     -0.476       0.012
+         1973     0.540      0.066       0.474
+         1974    -1.013     -0.644      -0.369
+         1975     0.317      0.046       0.271
+         1976    -0.021     -0.273       0.252
+         1977     0.582      0.419       0.163
+         1978    -0.353      0.048      -0.402
+         1979     0.499     -0.049       0.548
+         1980     0.460     -0.035       0.495
+         1981    -1.097     -0.081      -1.016
+         1982    -0.521     -0.413      -0.107
+         1983    -0.150     -0.273       0.123
+         1984    -0.640      0.194      -0.834
+         1985     0.509     -0.006       0.515
+         1986    -0.310     -0.210      -0.100
+         1987    -0.077      0.202      -0.279
+         1988     0.633     -0.050       0.683
+         1989    -0.331     -0.112      -0.219
+         1990     0.319      0.339      -0.020
+         1991    -0.417     -0.648       0.232
+         1992     0.729      0.326       0.403
+         1993    -0.415     -0.264      -0.151
+         1994     0.157      0.566      -0.409
+         1995    -0.028     -0.212       0.184
+         1996    -0.992     -0.109      -0.883
+         1997    -0.167     -0.264       0.098
+         1998    -0.096      0.211      -0.307
+         1999    -0.188     -0.374       0.186
+         2000     0.064      0.357      -0.293
+         2001     1.014      0.209       0.805
+
+                        Mean     Std Dev     Skew     Kurtosis     Serial r
+
+         Actual      -0.0617      0.5400  -0.0931      2.1529      -0.2728
+         Estimate     0.3960      0.3077  -0.0372      2.2333      -0.3568
+         Residual     0.0000      0.4437  -0.3953      2.5953      -0.3549
+
+         Durbin-Watson Stat =    2.5930     degrees-of-freedom =  1  and  32
+
+         Positive Residuals =  17                Negative Residuals =  15
+         Expected number of runs =     16.94     Actual number of runs =  23
+         Too few runs z-score =        2.368     prob =  0.00894
+         Too many runs z-score =       2.007     prob =  0.02236
+
+         Actual vs. Estimates correlation =       0.5699
+         Estimates vs. Residuals correlation =    0.0000
+         Actual vs. Residuals correlation =       0.8217
+
+         Insufficient data for verification, only  3 years
+
+
+         Final prewhitening of reconstructions prior to adding persistence
+
+         Series   Order   RSQ     AIC    Autoregressive Coeffs: Order AR(1)-AR(ip)
+            1       1   0.115   -85.79  -0.339
+
+
+                         *** Reconstructions With Autoregression Added In ***
+
+
+                           Calibration Period Results On Undifferenced Data
+
+           Pearson      Robust      Spearman         RE and CE Statistics         Xprod Mean
+         -----------  -----------  -----------  -------------------------------  ------------
+    Var   Corr   Pct   Corr   Pct   Corr   Pct     RE      CE    MedRE   MedCE    tstat   Pct
+      1  0.597 0.000  0.595 0.000  0.598 0.000   0.356   0.356   0.341   0.318    3.040 0.002
+
+                          Calibration Period Results On 1st-differenced Data
+
+           Pearson      Robust      Spearman         RE and CE Statistics         Xprod Mean
+         -----------  -----------  -----------  -------------------------------  ------------
+    Var   Corr   Pct   Corr   Pct   Corr   Pct     RE      CE    MedRE   MedCE    tstat   Pct
+      1  0.540 0.001  0.546 0.001  0.562 0.001   0.289   0.289   0.293   0.267    3.288 0.001
+
+                           Verification Period Results On Undifferenced Data
+
+           Pearson      Robust      Spearman         RE and CE Statistics         Xprod Mean
+         -----------  -----------  -----------  -------------------------------  ------------
+    Var   Corr   Pct   Corr   Pct   Corr   Pct     RE      CE    MedRE   MedCE    tstat   Pct
+      1 -0.834 1.000 -0.965 1.000 -1.000 1.000   0.189  -4.583   0.189  -4.583     -NaN   NaN
+
+                          Verification Period Results On 1st-differenced Data
+
+           Pearson      Robust      Spearman         RE and CE Statistics         Xprod Mean
+         -----------  -----------  -----------  -------------------------------  ------------
+    Var   Corr   Pct   Corr   Pct   Corr   Pct     RE      CE    MedRE   MedCE    tstat   Pct
+      1  1.000   NaN  1.000 1.000  1.000   NaN  -0.577  -5.475  -0.577  -5.475     -NaN   NaN

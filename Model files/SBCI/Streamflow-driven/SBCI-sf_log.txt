@@ -1,0 +1,42 @@
+ Save intermediate output:           y
+ Southern hemisphere tree rings:     n
+ Title:                           SBCI sf                                
+ File name:                       SBCI-sf_cfp.txt       
+ Tree-ring index option:             2
+ No tree-ring coordinates data:      0
+ Tree-ring coordinates format:    None
+ Common period okay:                 n
+ new first year:                  1900
+ New last year:                   2004
+ Prewhiten predictors:               y
+ First year for ar modeling:      1900
+ Last year for ar modeling:       2004
+ Lead or lag predictors              n
+ File name:                       SBCI-sf_GWL.prn                      
+ Climate data option:                3
+ No climate coordinates data:        0
+ Climate coordinates format:      None
+ Number of climate datasets          1
+ Same format & climate mask          y
+ Climate format option:              5
+ User defined format:             (i8,12f8.0)         
+ Climate mask:
+ JFMAMJJASONDJFMAMJJASONDJFMAMJJASONDJFMAMJJASONDJFMAMJJASOND
+ 000000100000                                                 
+ Change common interval              y
+ Common first year                1969
+ Common last year                 2004
+ Prewhiten predictands:              y
+ First year for ar modeling:      1969
+ Last year for ar modeling:       2004
+ Lead or lag predictands             n
+ Calibration first year:          1969
+ Calibration last year:           2001
+ Point-by-Point Regression:          1
+ Screening Alpha Level:          0.100
+ 1 or 2 tailed test:                 1
+ Sign of correlation:                +
+ Eigenvalue cutoff option:           1
+ Regression: Minimum AIC             4
+ Regression output length:           l
+ verification output length:         l
