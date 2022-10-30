@@ -15,6 +15,8 @@ the output files: the pcReg output showing the selected tree ring records (predi
 
 the final reddened reconstructed groundwater levels: the pcReg output file showing the reconstructed groundwater levels for each year (sitename_reconstr)
 
+The reconstruction models were extended back into time by changing the first year for modeling in 50 year increments (ie 1900, 1850, 1800, etc) until the RE and/or CE statistics for the model reached 0 or a negative value.
+
 Figure scripts folder:
 
 Example script for generating a daily hysteresis plot, used to classify wells based on the dominant recharge mechanism (single-hysteresis_plot_daily.r)
